@@ -1,0 +1,28 @@
+img {
+  background-position: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 102vh;
+  width: 100%;
+}
+.heading-carousel {
+  position: absolute;
+  top: 40%;
+}
+.heading-carousel h1 {
+  font-size: 4.5rem;
+  font-weight: bolder;
+  color: #fff;
+  font-family: "monospace", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+.heading-carousel h5 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  font-family: monospace;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+}

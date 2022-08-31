@@ -1,0 +1,37 @@
+.container-footer {
+  font-size: 10px;
+  padding: 15px;
+
+  background: rgba(0, 0, 0) !important;
+}
+.container-footer h6 {
+  font-size: 18px;
+
+  letter-spacing: 3px;
+}
+.container-footer p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.container-fluid a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+.container-fluid .active {
+  color: #2ae0c5;
+}
+
+.container-fluid a:hover {
+  color: #2ae0c5;
+}
+.footer-icons p {
+  color: #fff;
+}
+.footer_company p {
+  color: #fff;
+}
+.social-media-icons a{
+  font-size: 25px;
+}
