@@ -1,6 +1,6 @@
 import React from "react";
 import "./carousel.css";
-import mumbai from "./../assets/img/mumbai.jpg";
+import mumbai1 from "./../assets/img/mumbai-1.jpg";
 import orchha3 from "./../assets/img/orchha-2.jpg";
 import gwalior4 from "./../assets/img/gwalior-4.jpg";
 import gwalior3 from "./../assets/img/gwalior-3.jpg";
@@ -16,7 +16,7 @@ const Carousel = () => {
      
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="2000">
-          <img src={mumbai} class="d-block w-100" alt="..." />
+          <img src={mumbai1} class="d-block w-100" alt="..." />
           <div class="heading-carousel carousel-caption d-none d-md-block img-fluid">
             <h1>Make Travel Awesome</h1>
             <h5>The  world is a book and those who not travel  read only one page.</h5>

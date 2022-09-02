@@ -14,8 +14,8 @@
   			
 		} 
 		.item img:hover{
-			-webkit-transform: scale(2.2);
-  			transform: scale(2.2);
+			-webkit-transform: scale(2);
+  			transform: scale(2);
 
 		}
 		.img-thumbnail{

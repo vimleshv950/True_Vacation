@@ -26,10 +26,10 @@ import devijagdamba from './../assets/img/devi-jagdamba.jpg'
 import fatehpursikri from './../assets/img/fatehpur-sikri.jpg'
 import gwalior1 from './../assets/img/gwalior-1.jpg'
 import jaipur2 from './../assets/img/jaipur-2.jpg'
-import laxman from './../assets/img/laxman.jpg'
+import khajuraho19 from './../assets/img/khajuraho-19.jpg'
 import lion from './../assets/img/lion.jpg'
-import pandavfall from './../assets/img/pandav-fall.jpg'
-import varanasi1 from './../assets/img/varanasi-1.jpg'
+import pandavfall1 from './../assets/img/pandav-fall-1.jpg'
+import varanas1 from './../assets/img/varanas-1.jpg'
 import sanchi1 from './../assets/img/sanchi-1.jpg'
 
 
@@ -191,7 +191,7 @@ const Gallery = () => {
 		  <div class="col-md-4 col-sm-6 col-12">
             <div class="item">
               <img
-                src={laxman}
+                src={khajuraho19}
                 class="img-thumbnail"
               />
             </div>
@@ -199,7 +199,7 @@ const Gallery = () => {
 		  <div class="col-md-4 col-sm-6 col-12">
             <div class="item">
               <img
-                src={pandavfall}
+                src={pandavfall1}
                 class="img-thumbnail"
               />
             </div>
@@ -216,7 +216,7 @@ const Gallery = () => {
 		  <div class="col-md-4 col-sm-6 col-12">
             <div class="item">
               <img
-                src={varanasi1}
+                src={varanas1}
                 class="img-thumbnail"
               />
             </div>

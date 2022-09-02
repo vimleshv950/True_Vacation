@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import "./destination.css";
 import img1 from "./../assets/img/img-1.jpg";
 import img2 from "./../assets/img/img-2.jpg";
@@ -29,33 +30,32 @@ const Destination = () => {
 
         <div className="row">
           <div className="col-lg-4 col-md-6 col-12 pb-5">
-            <a href="/khajuraho">
+           
             <div class="card">
               <img src={img1} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Khajuraho</h5>
+                <h5 class="card-title">Special Khajuraho Tour</h5>
                 <p class="card-text">
-                Three-days Private Heritage Tour of Khajuraho & Orchha
+                --01 Nights & 02 Days--
                 </p>
-                <a href="#" class="btn btn-search btn-light">
+                <Link to="/khajuraho" class="btn btn-search btn-light">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
-            </a>
+          
           </div>
           <div className="col-lg-4 col-md-6 col-12 pb-5">
             <div class="card">
               <img src={img2} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Jhasi</h5>
+                <h5 class="card-title">Orchha- Khajuraho Tour</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                2 Nights & 03 Days
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/khajurahosec" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -63,14 +63,13 @@ const Destination = () => {
             <div class="card">
               <img src={img3} class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Mahoba</h5>
+                <h5 class="card-title">Medieval Culture With Wildlife Tour </h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                4 Nights & 05 Days
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/khajurahothird" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -83,9 +82,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -99,9 +98,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -114,9 +113,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search  btn-dark">
+                <Link to="/" class="btn btn-search  btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -129,9 +128,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -144,9 +143,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -159,9 +158,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -174,9 +173,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -189,9 +188,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -204,9 +203,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -219,9 +218,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -234,9 +233,9 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -249,14 +248,14 @@ const Destination = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-search btn-dark">
+                <Link to="/" class="btn btn-search btn-dark">
                   Search More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <button className="button w-50 mx-auto mb-5">
-          <a href="#">Know More</a>
+          <Link to="/">Know More</Link>
         </button>
         </div>
        

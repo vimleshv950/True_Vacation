@@ -1,0 +1,25 @@
+.container{
+	padding: 3rem;
+	background: #fff;
+}
+	
+		.item img{
+			height: 250px;
+			width: 400px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			-webkit-transition: 0.6s ease;
+  			transition: 0.6s ease;
+  			
+		} 
+		.item img:hover{
+			-webkit-transform: scale(2);
+  			transform: scale(2);
+
+		}
+		.img-thumbnail{
+		    border:0px;
+		    border-radius:0px;
+		}
+		

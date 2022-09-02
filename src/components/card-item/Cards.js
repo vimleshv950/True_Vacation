@@ -5,7 +5,7 @@ import CardItem from "./CardItem";
 import orchha1 from "../../assets/img/orchha-1.jpg";
 import khajuraho5 from "../../assets/img/khajuraho-5.jpg";
 import gwalior1 from "../../assets/img/gwalior-1.jpg";
-import varanasi1 from "../../assets/img/varanasi-1.jpg";
+import varanas1 from "../../assets/img/varanas-1.jpg";
 
 import img1 from "../../assets/img/img-1.jpg";
 import img2 from "../../assets/img/img-2.jpg";
@@ -19,7 +19,7 @@ function Cards() {
     <div className="cards">
       <div className="post-heading text-center">
         <h3 className="display-4 font-weight-bold">
-          Check out these EPIC Destinations!
+          Check out these <span> EPIC </span> Destinations!
         </h3>
         <hr className="w-50 mx-auto pb-3" />
       </div>
@@ -29,8 +29,8 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={khajuraho5}
-              text="   Khajuraho Bicycle Tour  "
-              label="Khajuraho"
+              text="Week-end Special Khajuraho Tour"
+              label="KHAJURAHO"
               path="/khajuraho"
             />
             <CardItem
@@ -54,7 +54,7 @@ function Cards() {
               path="/"
             />
             <CardItem
-              src={varanasi1}
+              src={varanas1}
               text="Experience Football on Top of the Himilayan Mountains"
               label="Varanasi1"
               path="/"
