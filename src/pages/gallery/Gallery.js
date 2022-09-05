@@ -6,25 +6,25 @@ import "./gallery.css";
 const Gallery = () => {
   return (
     <>
-      <div>
-        <div className="container">
-          <div className="post-heading text-center">
-            <h3 className="display-4 font-weight-bold">Memories</h3>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <hr className="w-50 mx-auto pb-5" />
-          </div>
+      <div className="py-5 ">
+        <div className="container py-5">
+        <h2 class="text-uppercase lined mb-4">Memories</h2>
+          <p class="lead mb-5">
+            Are you curious about something? Do you have some kind of problem
+            with our products? As am hastily invited settled at limited civilly
+            fortune me. Really spring in extent an by. Judge but built gay party
+            world..
+          </p>
+           <hr className="w-50 mx-auto" />
         </div>
-        <div  className="main_container">
-          {GalleryData.map((val, index) => {
-            return (
-              <GalleryProps
-             
-                key={index}
-                imgsrc={val.imgsrc}
-                place={val.place}
-              />
-            );
-          })}
+        <div className="img-container">
+          <div className="sub-container">
+            <div className="image">
+              {GalleryData.map((val) => {
+                return <GalleryProps imgsrc={val.imgsrc} place={val.place} />;
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </>

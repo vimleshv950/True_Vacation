@@ -3,9 +3,7 @@
     background: #fff;
   }
   
-  h1 {
-    text-align: center;
-  }
+ 
   .post-heading span{
    
       font-size: calc(0.5rem + 8vmin);
@@ -43,9 +41,7 @@
     flex-flow: column;
     width: 100%;
     box-shadow: 0 2px 4px rgb(139, 137, 137);
-    -webkit-filter: drop-shadow(0 2px 3px rgb(139, 137, 137));
-    filter: drop-shadow(0 4px 7px rgb(139, 137, 137));
-    border-radius: 8px;
+    border-radius: 4px;
     overflow: hidden;
     text-decoration: none;
   }
@@ -102,9 +98,9 @@
   }
   
   .cards__item__text {
-    color: #252e48;
-    font-size: 18px;
-    line-height: 24px;
+    color: #949494;
+    font-size: 15px;
+    /* line-height: 24px; */
   }
  
  

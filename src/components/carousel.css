@@ -1,9 +1,9 @@
-img {
+.carousel-item img {
   background-position: center;
 
   background-size: cover;
   background-repeat: no-repeat;
-  height: 102vh;
+  height: 100vh;
   width: 100%;
 }
 .heading-carousel {

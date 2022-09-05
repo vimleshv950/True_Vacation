@@ -1,9 +1,8 @@
-import React from "react";
-
+import React from 'react'
 import "./details.css";
 
-import lion from "./../assets/img/lion.jpg";
-import bhedaghat from "./../assets/img/bhedaghat.jpg";
+import img11 from "./../assets/img/img-11.jpg";
+import varanas1 from "./../assets/img/varanas-1.jpg";
 
 import pandavfall2 from "./../assets/img/pandav-fall-2.jpg";
 import orchha5 from "./../assets/img/orchha-5.jpg";
@@ -11,12 +10,12 @@ import waterfall from "./../assets/img/waterfall.jpg";
 import panna1 from "./../assets/img/panna-1.jpg";
 import panna2 from "./../assets/img/panna-2.jpg";
 
-const KhajurahoThird = () => {
+const DivineCentralIndiaTour = () => {
   return (
     <>
       <div className="details blog-single gray-bg">
         <div className="post-heading text-center">
-          <h3 className="display-4 font-weight-bold">Orchha- Khajuraho Tour</h3>
+          <h3 className="display-4 font-weight-bold">Divine Central India Tour</h3>
           <hr className="w-50 mx-auto pb-0" />
         </div>
         <div className="container">
@@ -24,13 +23,13 @@ const KhajurahoThird = () => {
             <div className="col-lg-8 m-15px-tb">
               <article className="article">
                 <div className="article-img">
-                  <img src={lion} className="main-img" title="" alt="" />
+                  <img src={img11} className="main-img" title="" alt="" />
                 </div>
                 <div className="article-title">
-                  <h3>Medieval Culture With Wildlife Tour </h3>
+                  <h3>Divine Central India Tour</h3>
                   <div className="media">
                     <div className="avatar">
-                      <img src={bhedaghat} className="main-img" />
+                      <img src={varanas1} className="main-img" />
                     </div>
                   </div>
                 </div>
@@ -165,7 +164,7 @@ const KhajurahoThird = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default KhajurahoThird;
+export default DivineCentralIndiaTour

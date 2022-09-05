@@ -10,12 +10,12 @@ import khajuraho5 from "./../assets/img/khajuraho-5.jpg";
 import khajuraho6 from "./../assets/img/khajuraho-6.jpg";
 import khajuraho7 from "./../assets/img/khajuraho-7.jpg";
 
-const Khajuraho = () => {
+const WeekendSpecialKhajurahoTour = () => {
   return (
     <>
       <div className="details blog-single gray-bg">
         <div className="post-heading text-center">
-          <h3 className="display-4 font-weight-bold">Special Khajuraho Tour</h3>
+          <h3 className="display-4 font-weight-bold">Week-end Special Khajuraho Tour</h3>
           <hr className="w-50 mx-auto pb-0" />
         </div>
         <div className="container">
@@ -161,4 +161,4 @@ const Khajuraho = () => {
   );
 };
 
-export default Khajuraho;
+export default WeekendSpecialKhajurahoTour;

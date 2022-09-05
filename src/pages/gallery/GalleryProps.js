@@ -1,24 +1,17 @@
 import React from "react";
 import "./gallery.css";
-// import img1 from "./../../assets/img/img-1.jpg";
 
 const GalleryProps = (props) => {
-  console.log(props);
   return (
-    <> 
-   
-      <section className="main_container">
-        <div className="container">
-          <div className="row">
-            <div className=" col-md-4 col-sm-6 col-12">
-              <div className="item">
-                <img src={props.imgsrc} className="img-thumbnail" />
-                <h4 className="sub_heading">{props.place}</h4>
-              </div>
-            </div>
-          </div>
+    <>
+      <div className="gallery-img">
+        <div className="item">
+          <img src={props.imgsrc} className="img-thumbnail" />
+          {/* <div className="sub_heading">
+            <h4>{props.place}</h4>
+          </div> */}
         </div>
-      </section>
+      </div>
     </>
   );
 };

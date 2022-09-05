@@ -11,9 +11,12 @@ const TopDestination = () => {
         {/* <div className="container-fostrap"> */}
           <div>
           <div className="post-heading text-center">
-          <h3 className="display-4 font-weight-bold">Destination</h3>
+          
+          <h2 className="text-uppercase mb-4 font-weight-bold">
+          Destination
+        </h2>
         </div>
-            <h5 className="para ">Specially selected for each interest type and various locations, covering entire India</h5>
+            <h5 className="para">Specially selected for each interest type and various locations, covering entire India</h5>
           </div>
           <hr className="w-50 mx-auto pb-5" />
           <div className="content">

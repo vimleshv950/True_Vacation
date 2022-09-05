@@ -18,9 +18,12 @@ function Cards() {
   return (
     <div className="cards">
       <div className="post-heading text-center">
-        <h3 className="display-4 font-weight-bold">
+        <h2 className="text-uppercase mb-4 font-weight-bold">
           Check out these <span> EPIC </span> Destinations!
-        </h3>
+        </h2>
+
+      
+
         <hr className="w-50 mx-auto pb-3" />
       </div>
 

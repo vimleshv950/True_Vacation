@@ -1,21 +1,22 @@
 import React from "react";
+
 import "./details.css";
 
-import khajuraho8 from "./../assets/img/khajuraho-8.jpg";
-import khajuraho10 from "./../assets/img/khajuraho-10.jpg";
+import lion from "./../assets/img/lion.jpg";
+import bhedaghat from "./../assets/img/bhedaghat.jpg";
 
-import orchha4 from "./../assets/img/orchha-4.jpg";
-import orchha2 from "./../assets/img/orchha-2.jpg";
-import orchha3 from "./../assets/img/orchha-3.jpg";
-import khajuraho13 from "./../assets/img/khajuraho-13.jpg";
-import khajuraho14 from "./../assets/img/khajuraho-14.jpg";
+import pandavfall2 from "./../assets/img/pandav-fall-2.jpg";
+import orchha5 from "./../assets/img/orchha-5.jpg";
+import waterfall from "./../assets/img/waterfall.jpg";
+import panna1 from "./../assets/img/panna-1.jpg";
+import panna2 from "./../assets/img/panna-2.jpg";
 
-const KhajurahoSec = () => {
+const MedievalCultureWithWildlifeTour = () => {
   return (
     <>
       <div className="details blog-single gray-bg">
         <div className="post-heading text-center">
-          <h3 className="display-4 font-weight-bold">Orchha- Khajuraho Tour</h3>
+          <h3 className="display-4 font-weight-bold">Medieval Culture With Wildlife Tour</h3>
           <hr className="w-50 mx-auto pb-0" />
         </div>
         <div className="container">
@@ -23,50 +24,65 @@ const KhajurahoSec = () => {
             <div className="col-lg-8 m-15px-tb">
               <article className="article">
                 <div className="article-img">
-                  <img src={khajuraho8} className="main-img" title="" alt="" />
+                  <img src={lion} className="main-img" title="" alt="" />
                 </div>
                 <div className="article-title">
-                  <h3>Special Orchha- Khajuraho Tour</h3>
+                  <h3>Medieval Culture With Wildlife Tour </h3>
                   <div className="media">
                     <div className="avatar">
-                      <img src={orchha2} className="main-img" />
+                      <img src={bhedaghat} className="main-img" />
                     </div>
                   </div>
                 </div>
                 <div className="article-content">
                   <h6 className="display-4 font-weight-bold text-center">
-                    --2 Nights & 03 Days--
+                    --4 Nights & 05 Days--
                   </h6>
                   <hr />
 
-                  <h4>Day 01: Arrival Jhansi – Orchha - Khajuraho</h4>
+                  <h4>Day 01: Arrival Jhansi – Orchha </h4>
                   <p>
                     Arrival Jhansi Railway station in morning. Upon arrival pick
-                    up from Railway station and procced by road to Orchha. Visit
-                    Ram Raja temple, Chaturbhuj temple and Jahangir Mahal. In
-                    late afternoon continue drive to Khajuraho. On arrival check
-                    into hotel. Overnight stay at hotel.
+                    up from Railway station and proceed by road to Orchha. Upon
+                    arrival check into hotel. Later full day orchha tour
+                    including visit Ram Raja temple, Chaturbhuj temple and
+                    Jahangir Mahal. Overnight stay at Orchha.
                   </p>
 
                   <h4>Day 02: Khajuraho</h4>
                   <p>
-                    Today after breakfast proceed to full day guided tour of
-                    word heritage monuments of Khajuraho including Western,
-                    Eastern and Southern group of temples. In evening enjoy
-                    light and sound show at Western Group of temples. Overnight
-                    stay at hotel..
+                    Today after breakfast proceed by road to Khajuraho. Upon
+                    arrival check into hotel and then guided tour of word
+                    hertoage monuments of Khajuraho including Western & Eastern
+                    group of temples. In evening enjoy light and sound show at
+                    Western Group of temples. Overnight stay at hotel..
                   </p>
-                  <h4>Day 03: Khajuraho – Jhansi - Departure</h4>
+
+                  <h4>Day 03: Khajuraho – Bandhavgarh</h4>
                   <p>
                     First half of the day is free for leisure. You can opt an
                     early morning jungle safari tour of Panna National Park.
                     Around 1100 hrs check out the hotel and start drive to
-                    Jhansi. Drop at Jhansi Railway station to catch your return
-                    scheduled train.
+                    Bandhavgarh. Arrival Bandhawgarh in evening. Check into your
+                    resort for overnight stay.
+                  </p>
+                  <h4>Day 04: Bandhavgarh</h4>
+                  <p>
+                    Enjoy an early morning Jungle Safari in Bandhavgarh national
+                    park to cite the Tiger and other wild animals. Return back
+                    to resort in afternoon. Evening at leisure. Overnight stay
+                    at hotel.
+                  </p>
+                  <h4>Day 05: Bandhavgarh – Jabalpur - Departure</h4>
+                  <p>
+                    After breakfast start drive to Jabalpur. En-route visit to
+                    famous Dhuandhar water fall Bhedaghat. Then transfer to
+                    railway station/Airport to continue your return journey to
+                    your respective destination.
                   </p>
                   <h4>
-                    Estimated Package Price: 8000 /- per person (based on
-                    minimum 09 pax) Inclusions:
+                    Estimated Package Price: Rs. 22000 ./- per person (based on
+                    minimum 02 pax) Inclusions:
                   </h4>
 
                   <ul>
@@ -74,8 +90,8 @@ const KhajurahoSec = () => {
                     <li>
                       All transfers and sight seeing by AC deluxe vehicle.
                     </li>
-                    <li> 01 day guided tour of temples,.</li>
-                    <li> Half day guided tour of Orchha monuments.</li>
+                    <li> 01 day guided tour of temples at Khajuraho.</li>
+                    <li> 01 day guided tour of Orchha monuments.</li>
                     <li> All parking, toll and driver allowances</li>
                     <li>GST</li>
                     <br />
@@ -85,11 +101,11 @@ const KhajurahoSec = () => {
                     <li> Entrance fees to monuments, national park etc.</li>
                     <li> Optional tour cost</li>
                     <li>
-                      Any extra services, tips, laundry, Camera and video fees
+                      Any extra services, tips, laundry, Camera and video fees{" "}
                     </li>
                     <li>
                       Any other services not specifically mentioned under
-                      inclusions.
+                      inclusions
                     </li>
                   </ul>
                 </div>
@@ -100,7 +116,7 @@ const KhajurahoSec = () => {
                 <div className="widget-body">
                   <div className="media align-items-center">
                     <div className="avatar">
-                      <img src={khajuraho10} className="side-img" />
+                      <img src={waterfall} className="side-img" />
                     </div>
                   </div>
                   <p>
@@ -119,28 +135,23 @@ const KhajurahoSec = () => {
                 <div className="widget-body p-4">
                   <div className="latest-post-aside media">
                     <div className="lpa-right">
-                      <img src={orchha3} className="side-img" title="" alt="" />
+                      <img src={panna1} className="side-img" title="" alt="" />
                     </div>
                   </div>
                   <div className="latest-post-aside media">
                     <div className="lpa-right">
-                      <img src={orchha4} className="side-img" title="" alt="" />
+                      <img src={panna2} className="side-img" title="" alt="" />
                     </div>
                   </div>
                   <div className="latest-post-aside media">
                     <div className="lpa-right">
-                      <img
-                        src={khajuraho13}
-                        className="side-img"
-                        title=""
-                        alt=""
-                      />
+                      <img src={orchha5} className="side-img" title="" alt="" />
                     </div>
                   </div>
                   <div className="latest-post-aside media">
                     <div className="lpa-right">
                       <img
-                        src={khajuraho14}
+                        src={pandavfall2}
                         className="side-img"
                         title=""
                         alt=""
@@ -157,4 +168,4 @@ const KhajurahoSec = () => {
   );
 };
 
-export default KhajurahoSec;
+export default MedievalCultureWithWildlifeTour;
