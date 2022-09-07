@@ -1,9 +1,8 @@
 .carousel-item img {
   background-position: center;
-
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 102vh;
   width: 100%;
 }
 .heading-carousel {
@@ -11,9 +10,9 @@
   top: 40%;
 }
 .heading-carousel h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: bolder;
-  color: #fff;
+  color: rgb(49, 39, 39);
   font-family: "monospace", sans-serif;
   word-spacing: 2px;
   letter-spacing: 5px;
@@ -21,8 +20,8 @@
 .heading-carousel h5 {
   font-size: 1.5rem;
   font-weight: 300;
-  color: #fff;
+  color: rgb(217, 196, 196);
   font-family: monospace;
-  letter-spacing: 5px;
-  word-spacing: 2px;
+  letter-spacing: 3px;
+  word-spacing: 1px;
 }

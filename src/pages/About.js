@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
-import img1 from "./../assets/img/img-1.jpg";
+import vishwanath from "./../assets/img/vishwanath.jpg";
 import img2 from "./../assets/img/img-2.jpg";
-// import Carousel from './../components/Carousel'
+
 const About = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const About = () => {
             </p>
           </header>
           <div className="row gy-4">
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <div className="accordion mb-5" id="aboutAccordion">
                 <div className="accordion-item mb-2">
                   <h5
@@ -43,9 +43,8 @@ const About = () => {
                     <div className="accordion-body">
                       <div className="row">
                         <div className="col-md-4">
-                          <img className="img-fluid" src={img1} alt="..." />
-                          <img className="img-fluid" src={img1} alt="..." />
-                          <img className="img-fluid" src={img1} alt="..." />
+                          <img className="img-fluid" src={vishwanath} alt="..." />
+                        
                         </div>
                         <div className="col-md-8">
                           <p>
@@ -96,8 +95,7 @@ const About = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <img className="img-fluid" src={img2} alt="..." />
-                          <img className="img-fluid" src={img2} alt="..." />
-                          <img className="img-fluid" src={img2} alt="..." />
+                        
                         </div>
                         <div className="col-md-8">
                           <p>
@@ -157,12 +155,12 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="ratio ratio-4x3">
                 <img className="embed-responsive-item" src={img1} />
                 <img className="embed-responsive-item" src={img2} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

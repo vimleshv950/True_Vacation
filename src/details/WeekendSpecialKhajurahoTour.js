@@ -10,7 +10,7 @@ import khajuraho5 from "./../assets/img/khajuraho-5.jpg";
 import khajuraho6 from "./../assets/img/khajuraho-6.jpg";
 import khajuraho7 from "./../assets/img/khajuraho-7.jpg";
 
-const WeekendSpecialKhajurahoTour = () => {
+const SpecialKhajurahoTour = () => {
   return (
     <>
       <div className="details blog-single gray-bg">
@@ -161,4 +161,4 @@ const WeekendSpecialKhajurahoTour = () => {
   );
 };
 
-export default WeekendSpecialKhajurahoTour;
+export default SpecialKhajurahoTour;

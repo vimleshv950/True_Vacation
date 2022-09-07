@@ -8,7 +8,7 @@ const TopDestination = () => {
   return (
     <>
       <section className="wrapper">
-        {/* <div className="container-fostrap"> */}
+       
           <div>
           <div className="post-heading text-center">
           
@@ -49,7 +49,7 @@ const TopDestination = () => {
               </div>
             </div>
           </div>
-        {/* </div> */}
+       
       </section>
     </>
   );

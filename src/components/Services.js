@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <>
       <section className="section services-section" id="services">
-        <div className="container">
+        <div className="container ">
           <div className="row">
             <div className="col-lg-6">
               <div className="section-title">
@@ -22,7 +22,7 @@ const Services = () => {
           </div>
           <div className="row">
             {/* <!-- feaure box --> */}
-            <div className="col-sm-6 col-lg-4">
+            <div className="col-12 col-md-4">
               <div className="feature-box-1">
                 <div className="icon">
                   <MdMedicalServices />
@@ -39,7 +39,7 @@ const Services = () => {
             </div>
 
             {/* <!-- feaure box --> */}
-            <div className="col-sm-6 col-lg-4">
+            <div className="col-12 col-md-4">
               <div className="feature-box-1">
                 <div className="icon">
                   <MdEmojiPeople />
@@ -53,7 +53,7 @@ const Services = () => {
             </div>
 
             {/* <!-- feaure box --> */}
-            <div className="col-sm-6 col-lg-4">
+            <div className="col-12 col-md-4">
               <div className="feature-box-1">
                 <div className="icon">
                   <FcIdea/>
@@ -68,7 +68,7 @@ const Services = () => {
             </div>
 
             {/* <!-- feaure box --> */}
-            <div className="col-sm-6 col-lg-4">
+            <div className="col-12 col-md-4">
               <div className="feature-box-1">
                 <div className="icon">
                  <SiMarketo/>
@@ -85,7 +85,7 @@ const Services = () => {
             </div>
 
             {/* <!-- feaure box --> */}
-            <div className="col-sm-6 col-lg-4">
+            <div className="col-12 col-md-4">
               <div className="feature-box-1">
                 <div className="icon">
                 <SiKakaotalk/>
@@ -101,7 +101,7 @@ const Services = () => {
             </div>
 
             {/* <!-- feaure box --> */}
-            <div className="col-sm-6 col-lg-4">
+            <div className="col-12 col-md-4">
               <div className="feature-box-1">
                 <div className="icon">
                 <MdLocationOn/>

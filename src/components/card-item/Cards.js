@@ -12,18 +12,16 @@ import img2 from "../../assets/img/img-2.jpg";
 import img3 from "../../assets/img/img-3.jpg";
 import img5 from "../../assets/img/img-5.jpg";
 
-
-
 function Cards() {
   return (
+    <section class="py-5">
+    <div class="container py-4">
     <div className="cards">
       <div className="post-heading text-center">
         <h2 className="text-uppercase mb-4 font-weight-bold">
           Check out these <span> EPIC </span> Destinations!
         </h2>
-
-      
-
+        
         <hr className="w-50 mx-auto pb-3" />
       </div>
 
@@ -50,7 +48,7 @@ function Cards() {
               label="Gwalior"
               path="/"
             />
-             <CardItem
+            <CardItem
               src={img1}
               text="Three-days Private Heritage Tour of Khajuraho & Orchha"
               label="Adventure"
@@ -62,7 +60,6 @@ function Cards() {
               label="Varanasi1"
               path="/"
             />
-          
           </ul>
           <ul className="cards__items">
             <CardItem
@@ -71,7 +68,7 @@ function Cards() {
               label="Bhopal"
               path="/"
             />
-             <CardItem
+            <CardItem
               src={img1}
               text="Three-days Private Heritage Tour of Khajuraho & Orchha"
               label="Adventure"
@@ -83,7 +80,6 @@ function Cards() {
               label="Mandu"
               path="/"
             />
-           
           </ul>
           <ul className="cards__items">
             <CardItem
@@ -98,13 +94,12 @@ function Cards() {
               label="Adventure"
               path="/"
             />
-             <CardItem
+            <CardItem
               src={img1}
               text="Three-days Private Heritage Tour of Khajuraho & Orchha"
               label="Adventure"
               path="/"
             />
-           
           </ul>
         </div>
         <button className="button w-50 mx-auto mb-5">
@@ -112,6 +107,8 @@ function Cards() {
         </button>
       </div>
     </div>
+    </div>
+    </section>
   );
 }
 

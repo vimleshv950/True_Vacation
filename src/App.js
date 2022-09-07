@@ -12,9 +12,8 @@ import OrchhaKhajurahoTour from "./details/OrchhaKhajurahoTour";
 import WeekendSpecialKhajurahoTour from "./details/WeekendSpecialKhajurahoTour";
 import MedievalCultureWithWildlifeTour from "./details/MedievalCultureWithWildlifeTour";
 import DivineCentralIndiaTour from "./details/DivineCentralIndiaTour";
-import Gallery from "./pages/gallery/Gallery";
-
- 
+import Gallery from "./pages/Gallery";
+// import Gallery from "./pages/gallery/Gallery";
 
 function App() {
   return (
@@ -26,18 +25,28 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/gallery" element={<Gallery />} />
+        {/* <Route exact path="/gallery" element={<Gallery />} /> */}
 
-      
-        <Route exact path="/weekendspecialkhajurahotour" element={<WeekendSpecialKhajurahoTour />} />
-        <Route exact path="/orchhakhajurahotour" element={<OrchhaKhajurahoTour />} />
-        <Route exact path="/medievalculturewithwildlifetour" element={<MedievalCultureWithWildlifeTour />} />
-        <Route exact path="/divinecentralindiatour" element={<DivineCentralIndiaTour />} />
-
-     
-
-
-        
-
+        <Route
+          exact
+          path="/weekendspecialkhajurahotour"
+          element={<WeekendSpecialKhajurahoTour />}
+        />
+        <Route
+          exact
+          path="/orchhakhajurahotour"
+          element={<OrchhaKhajurahoTour />}
+        />
+        <Route
+          exact
+          path="/medievalculturewithwildlifetour"
+          element={<MedievalCultureWithWildlifeTour />}
+        />
+        <Route
+          exact
+          path="/divinecentralindiatour"
+          element={<DivineCentralIndiaTour />}
+        />
       </Routes>
       <Footer />
     </Router>

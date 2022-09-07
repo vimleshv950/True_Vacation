@@ -21,7 +21,7 @@ const Destination = () => {
   return (
     <>
       <section className="py-5">
-        <div classNameName="container py-4">
+        <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">
             Choose Your Favorite Destination
           </h2>
@@ -110,11 +110,11 @@ const Destination = () => {
                 <img src={img1} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title">DetailRough</h5>
                     <p className="card-text text-gray-600">
                       This is a longer card with supporting text below as a
                     </p>
-                    <Link to="/">
+                    <Link to="/detailrough">
                       <button className="btn btn-outline-primary" type="submit">
                         Search More
                       </button>
