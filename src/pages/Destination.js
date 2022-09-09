@@ -3,19 +3,17 @@ import { Link } from "react-router-dom";
 import "./destination.css";
 import img1 from "./../assets/img/img-1.jpg";
 import img2 from "./../assets/img/img-2.jpg";
-import img3 from "./../assets/img/img-3.jpg";
+import amer from "./../assets/img/amer.jpg";
 import img4 from "./../assets/img/img-4.jpg";
-import khajuraho20 from "./../assets/img/khajuraho-20.jpg";
-import img6 from "./../assets/img/img-6.jpg";
-import img7 from "./../assets/img/img-7.jpg";
-import img8 from "./../assets/img/img-8.jpg";
-import img9 from "./../assets/img/img-9.jpg";
-import img10 from "./../assets/img/img-10.jpg";
+import khajuraho5 from "./../assets/img/khajuraho-5.jpg";
+import orchha5 from "./../assets/img/orchha-5.jpg";
+import lion from "./../assets/img/lion.jpg";
 import img11 from "./../assets/img/img-11.jpg";
-import img12 from "./../assets/img/img-12.jpg";
-import img13 from "./../assets/img/img-13.jpg";
-import img14 from "./../assets/img/img-14.jpg";
-import img15 from "./../assets/img/img-15.jpg";
+import img43 from "./../assets/img/img-43.jpg";
+import yoga from "./../assets/img/yoga.jpg";
+import orchha7 from "./../assets/img/orchha-7.jpg";
+
+
 
 const Destination = () => {
   return (
@@ -31,7 +29,7 @@ const Destination = () => {
           <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
               <div className="card">
-                <img src={khajuraho20} className="card-img-top" alt="..." />
+                <img src={khajuraho5} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
                     <h5 className="card-title">
@@ -51,7 +49,7 @@ const Destination = () => {
             </div>
             <div className="col">
               <div className="card">
-                <img src={img2} className="card-img-top" alt="..." />
+                <img src={orchha5} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
                     <h5 className="card-title">Orchha Khajuraho Tour</h5>
@@ -69,7 +67,7 @@ const Destination = () => {
             </div>
             <div className="col">
               <div className="card">
-                <img src={img3} className="card-img-top" alt="..." />
+                <img src={lion} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
                     <h5 className="card-title">
@@ -89,12 +87,12 @@ const Destination = () => {
             </div>
             <div className="col">
               <div className="card">
-                <img src={img4} className="card-img-top" alt="..." />
+                <img src={img11} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
                     <h5 className="card-title">Divine Central India Tour</h5>
                     <p className="card-text text-gray-600">
-                      --07 Nights & 08 Days--{" "}
+                      --07 Nights & 08 Days--
                     </p>
                     <Link to="/divinecentralindiatour">
                       <button className="btn btn-outline-primary" type="submit">
@@ -107,14 +105,14 @@ const Destination = () => {
             </div>
             <div className="col">
               <div className="card">
-                <img src={img1} className="card-img-top" alt="..." />
+                <img src={yoga} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
-                    <h5 className="card-title">DetailRough</h5>
-                    <p className="card-text text-gray-600">
+                    <h5 className="card-title">Explore Majestic Khajuraho With Yoga</h5>
+                    {/* <p className="card-text text-gray-600">
                       This is a longer card with supporting text below as a
-                    </p>
-                    <Link to="/detailrough">
+                    </p> */}
+                    <Link to="/exploremajestickhajurahowithyoga">
                       <button className="btn btn-outline-primary" type="submit">
                         Search More
                       </button>
@@ -125,14 +123,12 @@ const Destination = () => {
             </div>
             <div className="col">
               <div className="card">
-                <img src={img2} className="card-img-top" alt="..." />
+                <img src={orchha7} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text text-gray-600">
-                      This is a longer card with supporting text below as a
-                    </p>
-                    <Link to="/">
+                    <h5 className="card-title">Ture Vacation Mp Tour</h5>
+                   
+                    <Link to="/turevacationmptour">
                       <button className="btn btn-outline-primary" type="submit">
                         Search More
                       </button>
@@ -143,14 +139,14 @@ const Destination = () => {
             </div>
             <div className="col">
               <div className="card">
-                <img src={img3} className="card-img-top" alt="..." />
+                <img src={amer} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title">Golden Triangle Tour</h5>
                     <p className="card-text text-gray-600">
-                      This is a longer card with supporting text below as a
+                    --6 Nights & 7 Days--
                     </p>
-                    <Link to="/">
+                    <Link to="/goldentriangletour">
                       <button className="btn btn-outline-primary" type="submit">
                         Search More
                       </button>

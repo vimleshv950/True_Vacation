@@ -1,170 +1,229 @@
-import React from 'react'
+import React from "react";
 import "./details.css";
-
+import img4 from "./../assets/img/img-4.jpg";
 import img11 from "./../assets/img/img-11.jpg";
+import img12 from "./../assets/img/img-12.jpg";
+import img23 from "./../assets/img/img-23.jpg";
+import img24 from "./../assets/img/img-24.jpg";
+import img48 from "./../assets/img/img-48.jpg";
 import varanas1 from "./../assets/img/varanas-1.jpg";
+import varanas2 from "./../assets/img/varanas-2.jpg";
+import varanas3 from "./../assets/img/varanas-3.jpg";
+import chhatris_orchha from "./../assets/img/chhatris_orchha.jpg";
 
-import pandavfall2 from "./../assets/img/pandav-fall-2.jpg";
-import orchha5 from "./../assets/img/orchha-5.jpg";
-import waterfall from "./../assets/img/waterfall.jpg";
-import panna1 from "./../assets/img/panna-1.jpg";
-import panna2 from "./../assets/img/panna-2.jpg";
+
+
 
 const DivineCentralIndiaTour = () => {
   return (
     <>
-      <div className="details blog-single gray-bg">
-        <div className="post-heading text-center">
-          <h3 className="display-4 font-weight-bold">Divine Central India Tour</h3>
-          <hr className="w-50 mx-auto pb-0" />
-        </div>
-        <div className="container">
-          <div className="row align-items-start">
-            <div className="col-lg-8 m-15px-tb">
-              <article className="article">
-                <div className="article-img">
-                  <img src={img11} className="main-img" title="" alt="" />
-                </div>
-                <div className="article-title">
-                  <h3>Divine Central India Tour</h3>
-                  <div className="media">
-                    <div className="avatar">
-                      <img src={varanas1} className="main-img" />
-                    </div>
-                  </div>
-                </div>
-                <div className="article-content">
-                  <h6 className="display-4 font-weight-bold text-center">
-                    --4 Nights & 05 Days--
-                  </h6>
-                  <hr />
-
-                  <h4>Day 01: Arrival Jhansi – Orchha </h4>
-                  <p>
-                    Arrival Jhansi Railway station in morning. Upon arrival pick
-                    up from Railway station and proceed by road to Orchha. Upon
-                    arrival check into hotel. Later full day orchha tour
-                    including visit Ram Raja temple, Chaturbhuj temple and
-                    Jahangir Mahal. Overnight stay at Orchha.
-                  </p>
-
-                  <h4>Day 02: Khajuraho</h4>
-                  <p>
-                    Today after breakfast proceed by road to Khajuraho. Upon
-                    arrival check into hotel and then guided tour of word
-                    hertoage monuments of Khajuraho including Western & Eastern
-                    group of temples. In evening enjoy light and sound show at
-                    Western Group of temples. Overnight stay at hotel..
-                  </p>
-
-                  <h4>Day 03: Khajuraho – Bandhavgarh</h4>
-                  <p>
-                    First half of the day is free for leisure. You can opt an
-                    early morning jungle safari tour of Panna National Park.
-                    Around 1100 hrs check out the hotel and start drive to
-                    Bandhavgarh. Arrival Bandhawgarh in evening. Check into your
-                    resort for overnight stay.
-                  </p>
-                  <h4>Day 04: Bandhavgarh</h4>
-                  <p>
-                    Enjoy an early morning Jungle Safari in Bandhavgarh national
-                    park to cite the Tiger and other wild animals. Return back
-                    to resort in afternoon. Evening at leisure. Overnight stay
-                    at hotel.
-                  </p>
-                  <h4>Day 05: Bandhavgarh – Jabalpur - Departure</h4>
-                  <p>
-                    After breakfast start drive to Jabalpur. En-route visit to
-                    famous Dhuandhar water fall Bhedaghat. Then transfer to
-                    railway station/Airport to continue your return journey to
-                    your respective destination.
-                  </p>
-                  <h4>
-                    Estimated Package Price: Rs. 22000 ./- per person (based on
-                    minimum 02 pax) Inclusions:
-                  </h4>
-
-                  <ul>
-                    <li> AC accommodation in 3 star equivalent hotels. </li>
-                    <li>
-                      All transfers and sight seeing by AC deluxe vehicle.
-                    </li>
-                    <li> 01 day guided tour of temples at Khajuraho.</li>
-                    <li> 01 day guided tour of Orchha monuments.</li>
-                    <li> All parking, toll and driver allowances</li>
-                    <li>GST</li>
-                    <br />
-                    <li>
-                      <h6 className="bolder">Exclusions:</h6>
-                    </li>
-                    <li> Entrance fees to monuments, national park etc.</li>
-                    <li> Optional tour cost</li>
-                    <li>
-                      Any extra services, tips, laundry, Camera and video fees{" "}
-                    </li>
-                    <li>
-                      Any other services not specifically mentioned under
-                      inclusions
-                    </li>
-                  </ul>
-                </div>
-              </article>
+      <section className="detail_section py-5">
+        <div className="container py-4">
+          <h2 className="text-uppercase lined mb-4">
+            Divine Central India Tour{" "}
+          </h2>
+          <p className="text-sm mb-5 text-gray-600">(7 Nights & 08 Days)</p>
+          <div className="row mx-auto mb-5">
+            <div className="main_img col-12 col-md-6">
+              <img
+                src={img4}
+                className="img-fluid"
+                alt="khajuraho"
+                style={{ height: 400 }}
+              />
             </div>
-            <div className="col-lg-4 m-15px-tb blog-aside">
-              <div className="widget widget-author">
-                <div className="widget-body">
-                  <div className="media align-items-center">
-                    <div className="avatar">
-                      <img src={waterfall} className="side-img" />
-                    </div>
-                  </div>
-                  <p>
-                    Khajuraho Group of Monuments' is famous for its Nagara-Style
-                    architecture and graceful sculptures of nayikas and deities.
-                    The splendour of the intricate statues is one of the reasons
-                    that makes it a popular site to visit among tourists.
-                  </p>
-                </div>
-              </div>
-
-              <div className="widget widget-latest-post">
-                <div className="widget-title">
-                  <h3>Latest Post</h3>
-                </div>
-                <div className="widget-body p-4">
-                  <div className="latest-post-aside media">
-                    <div className="lpa-right">
-                      <img src={panna1} className="side-img" title="" alt="" />
-                    </div>
-                  </div>
-                  <div className="latest-post-aside media">
-                    <div className="lpa-right">
-                      <img src={panna2} className="side-img" title="" alt="" />
-                    </div>
-                  </div>
-                  <div className="latest-post-aside media">
-                    <div className="lpa-right">
-                      <img src={orchha5} className="side-img" title="" alt="" />
-                    </div>
-                  </div>
-                  <div className="latest-post-aside media">
-                    <div className="lpa-right">
-                      <img
-                        src={pandavfall2}
-                        className="side-img"
-                        title=""
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
+            <div className="main_img col-md-6">
+              <img
+                src={img11}
+                className="img-fluid"
+                alt="khajuraho"
+                style={{ height: 400 }}
+              />
+            </div>
+          </div>
+          <div className="row mb-4">
+            <div className="content col-12 col-md-8">
+              <h1>Day 01: Arrival Khajuraho</h1>
+              <p>
+                Pick up from Khajuraho railway station and transfer to hotel.
+                After freshen up full day sightseeing tour of word heritage
+                monuments of Khajuraho including Western, Eastern and Southern
+                group of temples. In evening enjoy light and sound show at
+                Western Group of temples. Overnight stay at hotel..
+              </p>
+            </div>
+            <div className="col-12 col-md-4">
+              <div className="sub_img">
+                <img
+                  src={img12}
+                  style={{ height: 400, width: 350 }}
+                  alt="khajuraho"
+                />
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </>
-  )
-}
+          <div className="row mx-auto mb-4">
+            <div className=" content col-12 col-md-8">
+              <h1>Day 02: Khajuraho </h1>
+              <p>
+                Proceed for an early morning jungle safari in Panna National
+                Park. After jungle safari sight seeing of Raneh fall. Return
+                back to hotel in late afternoon. Relax and overnight stay at
+                hotel.
+              </p>
+            </div>
+            <div className="col-12 col-md-4">
+              <div className="sub_img">
+                <img
+                  src={img23}
+                  style={{ height: 400, width: 350 }}
+                  alt="khajuraho"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row mx-auto mb-4">
+            <div className=" content col-12 col-md-8">
+              <h1>Day 03: Khajuraho - Chitrakoot</h1>
+              <p>
+                After breakfast start drive to Chitrakoot. En-route visit
+                Kalinjer fort. On arrival check into hotel at Chitrakoot.
+                Overnight stay at hotel.
+              </p>
+            </div>
+            <div className="col-12 col-md-4">
+              <div className="sub_img">
+                <img
+                  src={img24}
+                  style={{ height: 400, width: 350 }}
+                  alt="khajuraho"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row mx-auto mb-4">
+            <div className=" content col-12 col-md-8">
+              <h1>Day 04: Chitrakoot</h1>
+              <p>
+                Today after breakfast proceed for full day sightseeing of
+                Chitrakoot including visit to Ramghat, Kamadgir temple, Sita
+                Rasoi, Sati Anusuiya & Gupt Godavari. Overnight stay at
+                Chitrakoot.
+              </p>
+            </div>
+            <div className="col-12 col-md-4">
+              <div className="sub_img">
+                <img
+                  src={img48}
+                  style={{ height: 400, width: 350 }}
+                  alt="khajuraho"
+                />
+              </div>
+            </div>
+          </div>
 
-export default DivineCentralIndiaTour
+          <div className="row mx-auto mb-4">
+            <div className=" content col-12 col-md-8">
+              <h1>Day 05: Chiitrakoot – Prayagraj</h1>
+              <p>
+                After breakfast start drive to Prayagraj. Upon arrival half day
+                city tour of Allahabad (Prayagraj) including visit to Sangam. In
+                evening check into hotel for overnight stay.
+              </p>
+            </div>
+            <div className="col-12 col-md-4">
+              <div className="sub_img">
+                <img
+                  src={varanas1}
+                  style={{ height: 400, width: 350 }}
+                  alt="khajuraho"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="row mx-auto mb-4">
+            <div className=" content col-12 col-md-8">
+              <h1>Day 06: Prayagraj – Varanasi</h1>
+              <p>
+                After breakfast check out the hotel and proceed by road to
+                Varanasi. Arrive in afternoon at Varanasi. Upon arrival check
+                into hotel. Later visit to Kashi Vishwanath temple. Later
+                witness Ganga Aarati. Overnight stay at hotel.
+              </p>
+            </div>
+            <div className="col-12 col-md-4">
+              <div className="sub_img">
+                <img
+                  src={varanas2}
+                  style={{ height: 400, width: 350 }}
+                  alt="khajuraho"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="row mx-auto mb-4">
+            <div className=" content col-12 col-md-8">
+              <h1>Day 07: Varanasi – Sarnath – Departure</h1>
+              <p>
+                After breakfast proceed check out the hotel and proceed for an
+                excursion tour to Sarnath. Visit the Dhamik Stupa, Chaukhandi
+                Stupa and Sarnath Museum. Later return back to Varanasi.
+                Transfer to Railway Station/Airport to continue your return
+                journey.
+              </p>
+            </div>
+            <div className="col-12 col-md-4">
+              <div className="sub_img">
+                <img
+                  src={varanas3}
+                  style={{ height: 400, width: 350 }}
+                  alt="khajuraho"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="row mx-auto mb-4">
+            <div className="content col-md-8">
+              <h4 className="text-gray-600 mb-4">
+                Estimated Package Price: Rs. 24000 ./- per person (based on
+                minimum 10 pax) Inclusion
+              </h4>
+              <ul>
+                <li>AC accommodation in 3 star equivalent hotels. </li>
+                <li>All transfers and sight seeing by AC tempo traveller vehicle</li>
+                <li>01 day guided tour of temples at Khajuraho.</li>
+                <li>01 day guided tour of  Varanasi  monuments.</li>
+                <li>All parking, toll and driver allowances</li>
+                <li>GST</li>
+                <br />
+                <h5 className="fw-bold fs-4 mb-2">Exclusions:</h5>
+                <li>Entrance fees to monuments, national park etc.</li>
+                <li>Optional tour cost</li>
+                <li>
+                  Any extra services, tips, laundry, Camera and video fees
+                </li>
+                <li>
+                  Any other services not specifically mentioned under
+                  inclusions.
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-4">
+              <img
+                src={chhatris_orchha}
+                className="img-fluid"
+                alt="khajuraho"
+                style={{ height: 400, width: 350 }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default DivineCentralIndiaTour;

@@ -1,55 +1,22 @@
 import React from "react";
 import "./topdestination.css";
-import khajuraho1 from "./../assets/img/khajuraho-1.jpg";
-import unesco from "./../assets/img/unesco.jpg";
-import pandavfall2 from "./../assets/img/pandav-fall-2.jpg";
+import bus from "./../assets/img/bus.jpg";
 
 const TopDestination = () => {
   return (
     <>
-      <section className="wrapper">
-       
-          <div>
-          <div className="post-heading text-center">
-          
-          <h2 className="text-uppercase mb-4 font-weight-bold">
-          Destination
-        </h2>
-        </div>
-            <h5 className="para">Specially selected for each interest type and various locations, covering entire India</h5>
-          </div>
-          <hr className="w-50 mx-auto pb-5" />
-          <div className="content">
-            <div className="container-fluid">
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <div className="card">
-                    <a className="img-card" href="/">
-                      <img src={khajuraho1} />
-                    </a>
-                   
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <div className="card">
-                    <a className="img-card" href="/">
-                      <img src={unesco} />
-                    </a>
-                   
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <div className="card">
-                    <a className="img-card" href="/">
-                      <img src={pandavfall2} />
-                    </a>
-                   
-                  </div>
-                </div>
-              </div>
+      <section py-5>
+        <div className="data_contain">
+          <div className="img_contain">
+            <div className="text_contain">
+              <h1>Ture Vacation</h1>
+              <p>
+                Never give up on your dreams, no matter how painful and
+                difficult your journey is.
+              </p>
             </div>
           </div>
-       
+        </div>
       </section>
     </>
   );

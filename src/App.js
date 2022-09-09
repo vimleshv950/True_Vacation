@@ -13,7 +13,10 @@ import WeekendSpecialKhajurahoTour from "./details/WeekendSpecialKhajurahoTour";
 import MedievalCultureWithWildlifeTour from "./details/MedievalCultureWithWildlifeTour";
 import DivineCentralIndiaTour from "./details/DivineCentralIndiaTour";
 import Gallery from "./pages/Gallery";
-// import Gallery from "./pages/gallery/Gallery";
+import ExploreMajesticKhajurahoWithYoga from "./details/ExploreMajesticKhajurahoWithYoga";
+import JhansiOrchhaTour from "./details/TureVacationMpTour";
+import GoldenTriangleTour from "./details/GoldenTriangleTour";
+import TureVacationMpTour from "./details/TureVacationMpTour";
 
 function App() {
   return (
@@ -25,7 +28,6 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/gallery" element={<Gallery />} />
-        {/* <Route exact path="/gallery" element={<Gallery />} /> */}
 
         <Route
           exact
@@ -47,7 +49,25 @@ function App() {
           path="/divinecentralindiatour"
           element={<DivineCentralIndiaTour />}
         />
+         <Route
+        exact
+        path="/exploremajestickhajurahowithyoga"
+        element={<ExploreMajesticKhajurahoWithYoga />}
+      />
+   <Route
+        exact
+        path="/turevacationmptour"
+        element={<TureVacationMpTour />}
+      />
+
+<Route
+        exact
+        path="/goldentriangletour"
+        element={<GoldenTriangleTour />}
+      />
       </Routes>
+     
+
       <Footer />
     </Router>
   );

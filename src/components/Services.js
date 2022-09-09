@@ -7,8 +7,8 @@ import "./services.css";
 const Services = () => {
   return (
     <>
-      <section className="section services-section" id="services">
-        <div className="container ">
+      <section className="section services-section py-5" id="services">
+        <div className="container py-4 ">
           <div className="row">
             <div className="col-lg-6">
               <div className="section-title">

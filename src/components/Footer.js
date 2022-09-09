@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import {Link} from 'react-router-dom'
 import {
   FaFacebook,
   FaTwitter,
@@ -20,7 +21,7 @@ const Footer = () => {
               <div className="footer_company col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Company name</h6>
                 <p>
-                  <span>TV-TOUR</span> TV-Tour is a website that helps travelers find the best places to travel, and provides the best services that make your tour very memorial moment.
+                  <span>TURE VACATION</span> is a website that helps travelers find the best places to travel, and provides the best services that make your tour very memorial moment.
                 </p>
                 <div className="social-media-icons">
                   <a href="" className="me-4 text-reset">
@@ -46,66 +47,79 @@ const Footer = () => {
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">EPIC Tour</h6>
+                <h6 className="text-uppercase fw-bold mb-4">Best Tour</h6>
                 <p>
-                  <a href="/" className="active footer-link">
+                  <Link to="/" className="active footer-link">
                     Khajuraho
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/" className="footer-link">
-                    Orcha
-                  </a>
+                  <Link to="/" className="footer-link">
+                    Orchha
+                  </Link>
                 </p>
                 <p>
-                  <a href="/" className="footer-link">
-                    Maihar
-                  </a>
+                  <Link to="/" className="footer-link">
+                  Pachmarhi
+                  </Link>
                 </p>
                 <p>
-                  <a href="/" className="footer-link">
+                  <Link to="/" className="footer-link">
                     Bhopal  
-                  </a>
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/" className="footer-link">
+                    Vanarasi  
+                  </Link>
                 </p>
               </div>
 
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Links</h6>
                 <p>
-                  <a href="/" className="active footer-link">
+                  <Link to="/" className="active footer-link">
                     Home
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/destination" className="footer-link">
+                  <Link to="/destination" className="footer-link">
                     Destination
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/contact" className="footer-link">
+                  <Link to="/contact" className="footer-link">
                     Contact
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/about" className="footer-link">
+                  <Link to="/about" className="footer-link">
                     About
-                  </a>
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/gallery" className="footer-link">
+                    Gallery
+                  </Link>
                 </p>
               </div>
 
               <div className="footer-icons col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
-                  <FaHome /> TV-Tour
+                  <FaHome /> <Link to='/'>TURE VACATION</Link>
                 </p>
                 <p>
-                  <FaMailBulk /> info@example.com
+                  <FaMailBulk /> truevacationkhajuraho@gmail.com
                 </p>
                 <p>
-                  <FaPhoneAlt /> + 01 234 567 88
+                  <FaPhoneAlt /> <a href="tel:+919560644681">+91 9560644681</a>
                 </p>
                 <p>
-                  <FaPhoneAlt />+ 01 234 567 89
+                  <FaPhoneAlt /> <a href="tel:+917566574007">+91 7566574007</a>
+                </p>
+                <p>
+                  <FaPhoneAlt /> <a href="https://api.whatsapp.com/send?phone=8829974681" target="_blank">+91 8829974681</a>
                 </p>
               </div>
             </div>
