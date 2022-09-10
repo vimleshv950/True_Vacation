@@ -24,25 +24,23 @@ const Footer = () => {
                   <span>TURE VACATION</span> is a website that helps travelers find the best places to travel, and provides the best services that make your tour very memorial moment.
                 </p>
                 <div className="social-media-icons">
-                  <a href="" className="me-4 text-reset">
+                  <a href="https://www.facebook.com/people/Truevacation-India/100071351372185" className="me-4 text-reset" target="_blank">
                     <FaFacebook />
                   </a>
-                  <a href="" className="me-4 text-reset">
+                  <a href="" className="me-4 text-reset" target="_blank">
                     <FaTwitter />
                   </a>
 
-                  <a href="" className="me-4 text-reset">
+                  <a href="https://www.instagram.com/tvtour11/" className="me-4 text-reset" target="_blank">
                     <FaInstagram />
                   </a>
                   <a
                     href="https://in.linkedin.com/in/dharmendra-kumar-tiwari-8aaa31144"
-                    className="me-4 text-reset"
+                    className="me-4 text-reset" target="_blank"
                   >
                     <FaLinkedin />
                   </a>
-                  <a href="" className="me-4 text-reset">
-                    <FaPinterestP />
-                  </a>
+                
                 </div>
               </div>
 
@@ -50,22 +48,22 @@ const Footer = () => {
                 <h6 className="text-uppercase fw-bold mb-4">Best Tour</h6>
                 <p>
                   <Link to="/" className="active footer-link">
-                    Khajuraho
+                    Delhi
                   </Link>
                 </p>
                 <p>
                   <Link to="/" className="footer-link">
-                    Orchha
+                    Bhopal
                   </Link>
                 </p>
                 <p>
                   <Link to="/" className="footer-link">
-                  Pachmarhi
+                  Jaipur
                   </Link>
                 </p>
                 <p>
                   <Link to="/" className="footer-link">
-                    Bhopal  
+                    Agra  
                   </Link>
                 </p>
                 <p>
@@ -107,19 +105,20 @@ const Footer = () => {
               <div className="footer-icons col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
-                  <FaHome /> <Link to='/'>TURE VACATION</Link>
+                  <FaHome className="mx-2"/> <Link to='/'>TURE VACATION</Link>
                 </p>
                 <p>
-                  <FaMailBulk /> truevacationkhajuraho@gmail.com
+                  <FaMailBulk className="mx-2"/> 
+                    <a href="mailto:truevacationkhajuraho@gmail.com">truevacationkhajuraho@gmail.com</a> 
                 </p>
                 <p>
-                  <FaPhoneAlt /> <a href="tel:+919560644681">+91 9560644681</a>
+                  <FaPhoneAlt className="mx-2"/> <a href="tel:+919560644681">+91 9560644681</a>
                 </p>
                 <p>
-                  <FaPhoneAlt /> <a href="tel:+917566574007">+91 7566574007</a>
+                  <FaPhoneAlt className="mx-2"/> <a href="tel:+917566574007">+91 7566574007</a>
                 </p>
                 <p>
-                  <FaPhoneAlt /> <a href="https://api.whatsapp.com/send?phone=8829974681" target="_blank">+91 8829974681</a>
+                  <FaPhoneAlt className="mx-2"/> <a href="https://api.whatsapp.com/send?phone=8829974681" target="_blank">+91 8829974681</a>
                 </p>
               </div>
             </div>

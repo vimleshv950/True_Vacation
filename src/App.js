@@ -17,6 +17,8 @@ import ExploreMajesticKhajurahoWithYoga from "./details/ExploreMajesticKhajuraho
 import JhansiOrchhaTour from "./details/TureVacationMpTour";
 import GoldenTriangleTour from "./details/GoldenTriangleTour";
 import TureVacationMpTour from "./details/TureVacationMpTour";
+import GwaliorOrchhaKhajuraho from "./details/GwaliorOrchhaKhajuraho";
+import GoldenTringleWithCentralIndiaGoa from "./details/GoldenTringleWithCentralIndiaGoa";
 
 function App() {
   return (
@@ -49,24 +51,35 @@ function App() {
           path="/divinecentralindiatour"
           element={<DivineCentralIndiaTour />}
         />
-         <Route
-        exact
-        path="/exploremajestickhajurahowithyoga"
-        element={<ExploreMajesticKhajurahoWithYoga />}
-      />
-   <Route
-        exact
-        path="/turevacationmptour"
-        element={<TureVacationMpTour />}
-      />
+        <Route
+          exact
+          path="/exploremajestickhajurahowithyoga" 
+          element={<ExploreMajesticKhajurahoWithYoga />}
+        />
+        <Route
+          exact
+          path="/turevacationmptour"
+          element={<TureVacationMpTour />}
+        />
 
-<Route
-        exact
-        path="/goldentriangletour"
-        element={<GoldenTriangleTour />}
-      />
+        <Route
+          exact
+          path="/goldentriangletour"
+          element={<GoldenTriangleTour />}
+        />
+        
+        <Route
+          exact
+          path="/gwaliororchhakhajuraho"
+          element={<GwaliorOrchhaKhajuraho />}
+        />
+ <Route
+          exact
+          path="/goldentringlewithcentralindiagoa"
+          element={<GoldenTringleWithCentralIndiaGoa />}
+        />
+
       </Routes>
-     
 
       <Footer />
     </Router>

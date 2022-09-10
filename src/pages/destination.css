@@ -1,3 +1,6 @@
 .card-img-top{
     height: 100%;
 }
+.col > .card > h5{
+    font-size: 10px;
+}

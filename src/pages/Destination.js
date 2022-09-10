@@ -12,6 +12,7 @@ import img11 from "./../assets/img/img-11.jpg";
 import img43 from "./../assets/img/img-43.jpg";
 import yoga from "./../assets/img/yoga.jpg";
 import orchha7 from "./../assets/img/orchha-7.jpg";
+import gwalior4 from "./../assets/img/gwalior-4.jpg";
 
 
 
@@ -27,7 +28,7 @@ const Destination = () => {
             “The journey of a thousand miles begins with a single step.”
           </p>
           <div className="row row-cols-1 row-cols-md-3 g-4">
-            <div className="col">
+            <div className="col ">
               <div className="card">
                 <img src={khajuraho5} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -121,7 +122,7 @@ const Destination = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" >
               <div className="card">
                 <img src={orchha7} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -160,11 +161,31 @@ const Destination = () => {
                 <img src={img4} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title">Gwalior Orchha Khajuraho</h5>
                     <p className="card-text text-gray-600">
-                      This is a longer card with supporting text below as a
+                      07-Days
                     </p>
-                    <Link to="/">
+                    <Link to="/gwaliororchhakhajuraho">
+                      <button className="btn btn-outline-primary" type="submit">
+                        Search More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="col">
+              <div className="card">
+                <img src={gwalior4} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <div className="col-md-12 text-center">
+                    <h5 className="card-title">Golden Tringle With Central India Goa</h5>
+                    <p className="card-text text-gray-600">
+                    15 Days and 14 Nights
+                    </p>
+                    <Link to="/goldentringlewithcentralindiagoa">
                       <button className="btn btn-outline-primary" type="submit">
                         Search More
                       </button>
