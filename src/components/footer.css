@@ -4,6 +4,14 @@
 
   background: rgba(0, 0, 0) !important;
 }
+
+.container-footer  .footer_company  span{
+  color: #2ae0c5;
+  font-weight: 600;
+  /* font-size: large; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .container-footer h6 {
   font-size: 18px;
 

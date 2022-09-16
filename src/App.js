@@ -19,6 +19,8 @@ import GoldenTriangleTour from "./details/GoldenTriangleTour";
 import TureVacationMpTour from "./details/TureVacationMpTour";
 import GwaliorOrchhaKhajuraho from "./details/GwaliorOrchhaKhajuraho";
 import GoldenTringleWithCentralIndiaGoa from "./details/GoldenTringleWithCentralIndiaGoa";
+import PrivateHeritageTour from "./details/PrivateHeritageTour";
+import KhajurahoBicycleTour from "./details/KhajurahoBicycleTour";
 
 function App() {
   return (
@@ -53,7 +55,7 @@ function App() {
         />
         <Route
           exact
-          path="/exploremajestickhajurahowithyoga" 
+          path="/exploremajestickhajurahowithyoga"
           element={<ExploreMajesticKhajurahoWithYoga />}
         />
         <Route
@@ -67,18 +69,28 @@ function App() {
           path="/goldentriangletour"
           element={<GoldenTriangleTour />}
         />
-        
+
         <Route
           exact
           path="/gwaliororchhakhajuraho"
           element={<GwaliorOrchhaKhajuraho />}
         />
- <Route
+        <Route
           exact
           path="/goldentringlewithcentralindiagoa"
           element={<GoldenTringleWithCentralIndiaGoa />}
         />
 
+        <Route
+          exact
+          path="/privateheritagetour"
+          element={<PrivateHeritageTour />}
+        />
+        <Route
+          exact
+          path="/khajurahobicycletour"
+          element={<KhajurahoBicycleTour />}
+        />
       </Routes>
 
       <Footer />

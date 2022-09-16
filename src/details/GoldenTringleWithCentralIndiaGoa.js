@@ -1,6 +1,6 @@
 import React from "react";
 import "./details.css";
-
+import { useNavigate } from "react-router-dom";
 import mumbai1 from "./../assets/img/mumbai-1.jpg";
 import jaipur4 from "./../assets/img/jaipur-4.jpg";
 import agra1 from "./../assets/img/agra-1.jpg";
@@ -24,6 +24,7 @@ import img51 from "./../assets/img/img-51.jpg";
 
 
 const GoldenTringleWithCentralIndiaGoa = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="detail_section py-5">
@@ -52,7 +53,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
               />
             </div>
           </div>
-          <div className="row mb-4">
+          <div className="row mx-auto mb-4">
             <div className="content col-12 col-md-8">
               <h1>Overview</h1>
               <p>
@@ -454,6 +455,22 @@ const GoldenTringleWithCentralIndiaGoa = () => {
                   alt="khajuraho"
                 />
               </div>
+            </div>
+          </div>
+     
+        </div>
+        <div className="container">
+          <div className="row mx-auto ">
+            <div className="col-12">
+              <button
+                type="button"
+                onClick={() => navigate("/destination")}
+                className="goback mx-auto w-100"
+              >
+                Go Back
+              </button>
+              
+              
             </div>
           </div>
         </div>

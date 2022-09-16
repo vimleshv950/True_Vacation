@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 import "./details.css";
 
 import lion from "./../assets/img/lion.jpg";
@@ -13,6 +13,7 @@ import khajuraho25 from "./../assets/img/khajuraho-25.jpg";
 import khajuraho14 from "./../assets/img/khajuraho-14.jpg";
 
 const MedievalCultureWithWildlifeTour = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="detail_section py-5">
@@ -39,7 +40,7 @@ const MedievalCultureWithWildlifeTour = () => {
               />
             </div>
           </div>
-          <div className="row mb-4">
+          <div className="row mx-auto mb-4">
             <div className="content col-12 col-md-8">
               <h1>Day 01: Arrival Jhansi–Orchha </h1>
               <p>
@@ -176,6 +177,22 @@ const MedievalCultureWithWildlifeTour = () => {
                   style={{ height: 400, width: 350 }}
                 />
               </div>
+            </div>
+          </div>
+         
+        </div>
+        <div className="container">
+          <div className="row mx-auto ">
+            <div className="col-12">
+              <button
+                type="button"
+                onClick={() => navigate("/destination")}
+                className="goback mx-auto w-100"
+              >
+                Go Back
+              </button>
+              
+              
             </div>
           </div>
         </div>

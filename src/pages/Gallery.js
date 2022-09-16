@@ -14,7 +14,7 @@ import photos from "./../assets/img/photos.jpg";
 import patwanhaveli from "./../assets/img/patwan-haveli.jpg";
 import pic from "./../assets/img/pic.jpg";
 import pic2 from "./../assets/img/pic-2.jpg";
-import pooja1 from "./../assets/img/pooja-1.jpg";
+
 import pratapesawr from "./../assets/img/pratapesawr.jpg";
 import pandavfall2 from "./../assets/img/pandav-fall-2.jpg";
 import panna1 from "./../assets/img/panna-1.jpg";
@@ -168,15 +168,82 @@ import bhojpur2 from "./../assets/img/bhojpur-2.jpg";
 import brahaspatikund from "./../assets/img/brahaspati-kund.jpg";
 import laxman from "./../assets/img/laxman.jpg";
 import lepeard from "./../assets/img/lepeard.jpg";
-// import mewari1 from "./../assets/img/mewari-1.jpg";
 
-// import mathura2 from "./../assets/img/mathura-2.jpg";
-// import mewari2 from "./../assets/img/mewari-2.jpg";
 import mewari3 from "./../assets/img/mewari-3.jpg";
 import mumbai1 from "./../assets/img/mumbai-1.jpg";
+import car1 from "./../assets/img/car-1.jpeg";
+import car2 from "./../assets/img/car-2.jpeg";
+import car3 from "./../assets/img/car-3.jpeg";
+import car4 from "./../assets/img/car-4.jpeg";
+import car5 from "./../assets/img/car-5.jpeg";
+import car6 from "./../assets/img/car-6.jpeg";
+import car7 from "./../assets/img/car-7.jpeg";
+import pic1 from "./../assets/img/pic-1.jpeg";
+// import pic2 from "./../assets/img/pic-2.jpeg";
+import pic3 from "./../assets/img/pic-3.jpeg";
+import pic4 from "./../assets/img/pic-4.jpeg";
+import pic5 from "./../assets/img/pic-5.jpeg";
+import pic6 from "./../assets/img/pic-6.jpeg";
+import pic7 from "./../assets/img/pic-7.jpeg";
+import pic8 from "./../assets/img/pic-8.jpeg";
+import pic9 from "./../assets/img/pic-9.jpeg";
+import pic10 from "./../assets/img/pic-10.jpeg";
+import pic11 from "./../assets/img/pic-11.jpeg";
+import pic12 from "./../assets/img/pic-12.jpeg";
+import pic13 from "./../assets/img/pic-13.jpeg";
+import pic14 from "./../assets/img/pic-14.jpeg";
+import pic15 from "./../assets/img/pic-15.jpeg";
+import pic16 from "./../assets/img/pic-16.jpeg";
+import pic17 from "./../assets/img/pic-17.jpeg";
+import pic18 from "./../assets/img/pic-18.jpeg";
+import pic19 from "./../assets/img/pic-19.jpeg";
+import pic20 from "./../assets/img/pic-20.jpeg";
+import pic21 from "./../assets/img/pic-21.jpeg";
+import pic22 from "./../assets/img/pic-22.jpeg";
+import pic23 from "./../assets/img/pic-23.jpeg";
+import pic24 from "./../assets/img/pic-24.jpeg";
+import pic25 from "./../assets/img/pic-25.jpeg";
+import pic26 from "./../assets/img/pic-26.jpeg";
+import pic27 from "./../assets/img/pic-27.jpeg";
+import pic28 from "./../assets/img/pic-28.jpeg";
+import pic29 from "./../assets/img/pic-29.jpeg";
+import pic30 from "./../assets/img/pic-30.jpeg";
+import pic31 from "./../assets/img/pic-31.jpeg";
+import pic32 from "./../assets/img/pic-32.jpeg";
+import pic33 from "./../assets/img/pic-33.jpeg";
+import pic34 from "./../assets/img/pic-34.jpeg";
+import pic35 from "./../assets/img/pic-35.jpeg";
+import pic36 from "./../assets/img/pic-36.jpeg";
+import pic37 from "./../assets/img/pic-37.jpeg";
+import pic38 from "./../assets/img/pic-38.jpeg";
+import pic39 from "./../assets/img/pic-39.jpeg";
+import pic40 from "./../assets/img/pic-40.jpeg";
+import pic41 from "./../assets/img/pic-41.jpeg";
+import pic42 from "./../assets/img/pic-42.jpeg";
+import pic43 from "./../assets/img/pic-43.jpeg";
+import pic44 from "./../assets/img/pic-44.jpeg";
+import pic45 from "./../assets/img/pic-45.jpeg";
+import pic46 from "./../assets/img/pic-46.jpeg";
+import pic47 from "./../assets/img/pic-47.jpeg";
+import pic48 from "./../assets/img/pic-48.jpeg";
+import pic49 from "./../assets/img/pic-49.jpeg";
+import pic50 from "./../assets/img/pic-50.jpeg";
+import pic51 from "./../assets/img/pic-51.jpeg";
+import pic52 from "./../assets/img/pic-52.jpeg";
+import pic53 from "./../assets/img/pic-53.jpeg";
+import pic54 from "./../assets/img/pic-54.jpeg";
+import pic55 from "./../assets/img/pic-55.jpeg";
+import pic56 from "./../assets/img/pic-56.jpeg";
+// import pic57 from "./../assets/img/pic-57.jpeg";
+import pic58 from "./../assets/img/pic-58.jpeg";
+import bicycle1 from "./../assets/img/bicycle1.jpeg";
 
-
-
+import bicycle2 from "./../assets/img/bicycle2.jpeg";
+import yoga1 from "./../assets/img/yoga-1.jpeg";
+import yoga2 from "./../assets/img/yoga-2.jpeg";
+import yoga3 from "./../assets/img/yoga-3.jpeg";
+import yoga4 from "./../assets/img/yoga-4.jpg";
+import yoga9 from "./../assets/img/yoga-9.jpeg";
 
 const Gallery = () => {
   return (
@@ -188,10 +255,545 @@ const Gallery = () => {
           {/* <hr className="w-50 mx-auto" /> */}
 
           <div className="row  gx-5">
+
+
+
+            {/* 444444444444444444444444444444 */}
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={bicycle1}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+          
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={yoga2}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={yoga3}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={yoga4}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={yoga9}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+           
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic17}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+
+
+
+            {/* 444444444444444444444444444444 */}
+
+            
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic18}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic19}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic20}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+          
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic29}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic30}
+                  alt="hawa-mahal"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic31}
+                  alt="hawa-mahal"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic32}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic33}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic34}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+           
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic38}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic39}
+                  alt="gwalior "
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic40}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic41}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic42}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic43}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic44}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic45}
+                  alt="hawa-mahal"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic46}
+                  alt="hawa-mahal"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic51}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic52}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic53}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic54}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic56}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic47}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic48}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic49}
+                  alt="gwalior "
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic50}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic58}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic1}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic2}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic3}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic4}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic6}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic7}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic8}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic9}
+                  alt="gwalior "
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic10}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic11}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic12}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic13}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic14}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic15}
+                  alt="hawa-mahal"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic16}
+                  alt="hawa-mahal"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={car1}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+          
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={car6}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
                   src={gadisagar}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={car7}
                   alt="gadi-sagar"
                   className="img-fluid gallery_img"
                   style={{ height: 280, width: 500 }}
@@ -231,8 +833,28 @@ const Gallery = () => {
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
+                  src={car3}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
                   src={gwalior3}
                   alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={car2}
+                  alt="gwalior_orchha"
                   className="img-fluid gallery_img"
                   style={{ height: 280, width: 500 }}
                 />
@@ -521,6 +1143,16 @@ const Gallery = () => {
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
+                  src={car4}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
                   src={lepeard}
                   alt="lepeard"
                   className="img-fluid gallery_img"
@@ -528,7 +1160,6 @@ const Gallery = () => {
                 />
               </figure>
             </div>
-           
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
@@ -539,8 +1170,6 @@ const Gallery = () => {
                 />
               </figure>
             </div>
-            
-           
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
@@ -666,6 +1295,86 @@ const Gallery = () => {
                 <img
                   src={jahagirmahal}
                   alt="Jahagir Mahal"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic21}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic22}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic23}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic24}
+                  alt="gwalior "
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic25}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic26}
+                  alt="gwalior"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic27}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic28}
+                  alt="gwalior"
                   className="img-fluid gallery_img"
                   style={{ height: 280, width: 500 }}
                 />
@@ -964,6 +1673,36 @@ const Gallery = () => {
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
+                  src={pic35}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic36}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic37}
+                  alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
                   src={khajuraho22}
                   alt="khajuraho"
                   className="img-fluid gallery_img"
@@ -1076,16 +1815,6 @@ const Gallery = () => {
               <figure>
                 <img
                   src={pic}
-                  alt=""
-                  className="img-fluid gallery_img"
-                  style={{ height: 280, width: 500 }}
-                />
-              </figure>
-            </div>
-            <div className="col-md-4 col-10 mx-auto">
-              <figure>
-                <img
-                  src={pooja1}
                   alt=""
                   className="img-fluid gallery_img"
                   style={{ height: 280, width: 500 }}
@@ -1255,8 +1984,38 @@ const Gallery = () => {
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
+                  src={bicycle2}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={yoga1}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
                   src={img47}
                   alt=""
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={car5}
+                  alt="gadi-sagar"
                   className="img-fluid gallery_img"
                   style={{ height: 280, width: 500 }}
                 />

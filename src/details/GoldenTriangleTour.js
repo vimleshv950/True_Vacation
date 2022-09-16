@@ -1,6 +1,6 @@
 import React from "react";
 import "./details.css";
-
+import { useNavigate } from "react-router-dom";
 import amerelephant from "./../assets/img/amer-elephant.jpg";
 import jaipur3 from "./../assets/img/jaipur-3.jpg";
 import jaipur2 from "./../assets/img/jaipur-2.jpg";
@@ -15,6 +15,7 @@ import img55 from "./../assets/img/img-55.jpg";
 
 
 const GoldenTriangleTour = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="detail_section py-5">
@@ -39,7 +40,7 @@ const GoldenTriangleTour = () => {
               />
             </div>
           </div>
-          <div className="row mb-4">
+          <div className="row mx-auto mb-4">
             <div className="content col-12 col-md-8">
               <h1>Overview</h1>
               <p>
@@ -185,7 +186,22 @@ const GoldenTriangleTour = () => {
               </div>
             </div>
           </div>
-        
+         
+        </div>
+        <div className="container">
+          <div className="row mx-auto ">
+            <div className="col-12">
+              <button
+                type="button"
+                onClick={() => navigate("/destination")}
+                className="goback mx-auto w-100"
+              >
+                Go Back
+              </button>
+              
+              
+            </div>
+          </div>
         </div>
       </section>
     </>

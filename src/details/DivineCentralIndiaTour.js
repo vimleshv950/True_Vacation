@@ -1,5 +1,6 @@
 import React from "react";
 import "./details.css";
+import { useNavigate } from "react-router-dom";
 import img4 from "./../assets/img/img-4.jpg";
 import img11 from "./../assets/img/img-11.jpg";
 import img12 from "./../assets/img/img-12.jpg";
@@ -11,10 +12,8 @@ import varanas2 from "./../assets/img/varanas-2.jpg";
 import varanas3 from "./../assets/img/varanas-3.jpg";
 import chhatris_orchha from "./../assets/img/chhatris_orchha.jpg";
 
-
-
-
 const DivineCentralIndiaTour = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="detail_section py-5">
@@ -193,9 +192,11 @@ const DivineCentralIndiaTour = () => {
               </h4>
               <ul>
                 <li>AC accommodation in 3 star equivalent hotels. </li>
-                <li>All transfers and sight seeing by AC tempo traveller vehicle</li>
+                <li>
+                  All transfers and sight seeing by AC tempo traveller vehicle
+                </li>
                 <li>01 day guided tour of temples at Khajuraho.</li>
-                <li>01 day guided tour of  Varanasi  monuments.</li>
+                <li>01 day guided tour of Varanasi monuments.</li>
                 <li>All parking, toll and driver allowances</li>
                 <li>GST</li>
                 <br />
@@ -218,6 +219,19 @@ const DivineCentralIndiaTour = () => {
                 alt="khajuraho"
                 style={{ height: 400, width: 350 }}
               />
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row mx-auto ">
+            <div className="col-12">
+              <button
+                type="button"
+                onClick={() => navigate("/destination")}
+                className="goback mx-auto w-100"
+              >
+                Go Back
+              </button>
             </div>
           </div>
         </div>

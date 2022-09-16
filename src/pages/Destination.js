@@ -13,6 +13,7 @@ import img43 from "./../assets/img/img-43.jpg";
 import yoga from "./../assets/img/yoga.jpg";
 import orchha7 from "./../assets/img/orchha-7.jpg";
 import gwalior4 from "./../assets/img/gwalior-4.jpg";
+import khajuraho26 from "./../assets/img/khajuraho-26.jpg";
 
 
 
@@ -99,7 +100,7 @@ const Destination = () => {
                       <button className="btn btn-outline-primary" type="submit">
                         Search More
                       </button>
-                    </Link>
+                    </Link> 
                   </div>
                 </div>
               </div>
@@ -110,9 +111,9 @@ const Destination = () => {
                 <div className="card-body">
                   <div className="col-md-12 text-center">
                     <h5 className="card-title">Explore Majestic Khajuraho With Yoga</h5>
-                    {/* <p className="card-text text-gray-600">
-                      This is a longer card with supporting text below as a
-                    </p> */}
+                    <p className="card-text text-gray-600">
+                    --03 Days--
+                    </p>
                     <Link to="/exploremajestickhajurahowithyoga">
                       <button className="btn btn-outline-primary" type="submit">
                         Search More
@@ -127,8 +128,10 @@ const Destination = () => {
                 <img src={orchha7} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <div className="col-md-12 text-center">
-                    <h5 className="card-title">Ture Vacation Mp Tour</h5>
-                   
+                    <h5 className="card-title">MP Tour</h5>
+                    <p className="card-text text-gray-600">
+                    --08 Nights & 09 Days--
+                    </p>
                     <Link to="/turevacationmptour">
                       <button className="btn btn-outline-primary" type="submit">
                         Search More
@@ -194,6 +197,57 @@ const Destination = () => {
                 </div>
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div className="col">
+              <div className="card">
+                <img src={khajuraho26} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <div className="col-md-12 text-center">
+                    <h5 className="card-title">Heritage Tour of Khajuraho & Orchha</h5>
+                    <p className="card-text text-gray-600">
+                      03-Days
+                    </p>
+                    <Link to="/privateheritagetour">
+                      <button className="btn btn-outline-primary" type="submit">
+                        Search More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="col">
+              <div className="card">
+                <img src={img4} className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <div className="col-md-12 text-center">
+                    <h5 className="card-title">Khajuraho Bicycle Tour </h5>
+                    <p className="card-text text-gray-600">
+                    UNESCO site
+                    </p>
+                    <Link to="/khajurahobicycletour">
+                      <button className="btn btn-outline-primary" type="submit">
+                        Search More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
           </div>
         </div>
       </section>

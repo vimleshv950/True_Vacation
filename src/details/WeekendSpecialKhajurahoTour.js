@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./details.css";
 import khajuraho15 from "./../assets/img/khajuraho-15.jpg";
 import khajuraho9 from "./../assets/img/khajuraho-9.jpg";
@@ -7,6 +8,7 @@ import khajuraho22 from "./../assets/img/khajuraho-22.jpg";
 import khajuraho7 from "./../assets/img/khajuraho-7.jpg";
 
 const SpecialKhajurahoTour = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="py-5">
@@ -33,7 +35,7 @@ const SpecialKhajurahoTour = () => {
               />
             </div>
           </div>
-          <div className="row mb-4">
+          <div className="row mx-auto mb-4">
             <div className="content col-12 col-md-8">
               <h1> Day 01: Arrival Khajuraho</h1>
               <p>
@@ -68,13 +70,13 @@ const SpecialKhajurahoTour = () => {
               <div className="sub_img">
                 <img
                   src={khajuraho22}
-                  style={{height: 400, width: 350 }}
+                  style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
               </div>
             </div>
           </div>
-          <div className="row mx-auto">
+          <div className="row mx-auto mb-5">
             <div className="content col-md-8">
               <h4 className="text-gray-600 mb-4">
                 Estimated Package Price: Rs. 7500/- per person (based on minimum
@@ -94,10 +96,11 @@ const SpecialKhajurahoTour = () => {
                 <li>Optional tour cost</li>
                 <li>
                   Any extra services, tips, laundry, Camera and video fees
-                </li> 
-                 <li>
-                 Any other services not specifically mentioned under inclusions.
-                    </li>
+                </li>
+                <li>
+                  Any other services not specifically mentioned under
+                  inclusions.
+                </li>
               </ul>
             </div>
             <div className="col-md-4">
@@ -110,9 +113,20 @@ const SpecialKhajurahoTour = () => {
             </div>
           </div>
         </div>
+        <div className="container">
+          <div className="row mx-auto ">
+            <div className="col-12">
+              <button
+                type="button"
+                onClick={() => navigate("/destination")}
+                className="goback mx-auto w-100"
+              >
+                Go Back
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
-
-    
     </>
   );
 };

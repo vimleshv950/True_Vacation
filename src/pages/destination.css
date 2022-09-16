@@ -4,3 +4,11 @@
 .col > .card > h5{
     font-size: 10px;
 }
+.card-img-top{
+
+  height: 300px;
+    object-fit: cover;
+}
+.container .row .card-title{
+font-size: 18px;
+}

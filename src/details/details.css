@@ -1,16 +1,16 @@
-.detail_section{
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+.detail_section {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 }
-.content{
+.content {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .content h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   font-weight: 600;
   text-align: center;
@@ -18,22 +18,50 @@
   padding-bottom: 5px;
   text-transform: uppercase;
 }
-.content p, li{
+.content p,
+li {
   line-height: 30px;
   word-spacing: 3px;
   letter-spacing: 1px;
   /* font-family: 'Roboto', sans-serif; */
 }
-.main_img img{
+.main_img img {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  object-fit: cover;
 }
-.sub_img img{
+.sub_img img {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  transition: all .2s ease-in-out
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
 }
 
-
-.sub_img img:hover{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+.sub_img img:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   transform: scale(1.1);
+}
+
+.goback {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  background: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 12px 20px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.goback:hover {
+  transition: all 0.1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1d9e7e;
+  color: #000;
+  background: #1de9b6;
 }

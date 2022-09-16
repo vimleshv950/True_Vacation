@@ -18,6 +18,7 @@
 
 .gallery_img {
   padding: 0 10px;
+   object-fit: cover;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
 }

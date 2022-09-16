@@ -1,5 +1,6 @@
 import React from "react";
 import "./details.css";
+import { useNavigate } from "react-router-dom";
 import mumbai1 from "./../assets/img/mumbai-1.jpg";
 import orchha1 from "./../assets/img/orchha-1.jpg";
 import orchha8 from "./../assets/img/orchha-8.jpg";
@@ -12,6 +13,7 @@ import khajuraho29 from "./../assets/img/khajuraho-29.jpg";
 import img55 from "./../assets/img/img-55.jpg";
 
 const GwaliorOrchhaKhajuraho = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="detail_section py-5">
@@ -38,7 +40,7 @@ const GwaliorOrchhaKhajuraho = () => {
               />
             </div>
           </div>
-          <div className="row mb-4">
+          <div className="row mx-auto mb-4">
             <div className="content col-12 col-md-8">
               <h1>Day-1</h1>
               <p>
@@ -197,6 +199,22 @@ const GwaliorOrchhaKhajuraho = () => {
                   alt="khajuraho"
                 />
               </div>
+            </div>
+          </div>
+         
+        </div>
+        <div className="container">
+          <div className="row mx-auto ">
+            <div className="col-12">
+              <button
+                type="button"
+                onClick={() => navigate("/destination")}
+                className="goback mx-auto w-100"
+              >
+                Go Back
+              </button>
+              
+              
             </div>
           </div>
         </div>

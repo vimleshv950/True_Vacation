@@ -1,17 +1,16 @@
 import React from "react";
 import "./details.css";
-import yoga from "./../assets/img/yoga.jpg";
-import sonarqila from "./../assets/img/sonar-qila.jpg";
-import ranehfall from "./../assets/img/raneh-fall.jpg";
-import img23 from "./../assets/img/img-23.jpg";
-import img22 from "./../assets/img/img-22.jpg";
-import holi2 from "./../assets/img/holi-2.jpg";
-import varanas1 from "./../assets/img/varanas-1.jpg";
-import varanas2 from "./../assets/img/varanas-2.jpg";
-import varanas3 from "./../assets/img/varanas-3.jpg";
-import chhatris_orchha from "./../assets/img/chhatris_orchha.jpg";
+import { useNavigate } from "react-router-dom";
+import yoga1 from "./../assets/img/yoga-1.jpeg";
+import yoga4 from "./../assets/img/yoga-4.jpg";
+import yoga9 from "./../assets/img/yoga-9.jpeg";
+import yoga3 from "./../assets/img/yoga-3.jpeg";
+
+import yoga11 from "./../assets/img/yoga-11.jpeg";
+
 
 const ExploreMajesticKhajurahoWithYoga = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="detail_section py-5">
@@ -23,7 +22,7 @@ const ExploreMajesticKhajurahoWithYoga = () => {
           <div className="row mx-auto mb-5">
             <div className="main_img col-12 col-md-6">
               <img
-                src={yoga}
+                src={yoga1}
                 className="img-fluid"
                 alt="khajuraho"
                 style={{ height: 400 }}
@@ -31,7 +30,7 @@ const ExploreMajesticKhajurahoWithYoga = () => {
             </div>
             <div className="main_img col-md-6">
               <img
-                src={sonarqila}
+                src={yoga4}
                 className="img-fluid"
                 alt="khajuraho"
                 style={{ height: 400 }}
@@ -71,8 +70,8 @@ const ExploreMajesticKhajurahoWithYoga = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={ranehfall}
-                  style={{ height: 400, width: 350 }}
+                  src={yoga3}
+                  style={{ height: 500, width: 350 }}
                   alt="khajuraho"
                 />
               </div>
@@ -111,8 +110,8 @@ const ExploreMajesticKhajurahoWithYoga = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={img22}
-                  style={{ height: 400, width: 350 }}
+                  src={yoga9}
+                  style={{ height: 500, width: 350 }}
                   alt="khajuraho"
                 />
               </div>
@@ -158,11 +157,27 @@ const ExploreMajesticKhajurahoWithYoga = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={holi2}
+                  src={yoga11}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
               </div>
+            </div>
+          </div>
+         
+        </div>
+        <div className="container">
+          <div className="row mx-auto ">
+            <div className="col-12">
+              <button
+                type="button"
+                onClick={() => navigate("/destination")}
+                className="goback mx-auto w-100"
+              >
+                Go Back
+              </button>
+              
+              
             </div>
           </div>
         </div>

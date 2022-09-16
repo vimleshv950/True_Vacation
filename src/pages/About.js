@@ -7,6 +7,10 @@ const About = () => {
   return (
     <>
       {/* <!-- ABOUT SECTION--> */}
+
+
+
+
       <section className="py-5">
         <div className="container py-4">
           <header className="mb-5">

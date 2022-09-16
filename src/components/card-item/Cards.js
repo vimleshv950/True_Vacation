@@ -58,7 +58,7 @@ function Cards() {
               <ul className="cards__items">
                 <CardItem
                   src={gwalior1}
-                  text="Gwalior holds an important place in the heart of incredible India... "
+                  text="Gwalior holds an important place in the heart of india..."
                   label="GWALIOR"
                   path="/gwaliororchhakhajuraho"
                 />
@@ -84,13 +84,13 @@ function Cards() {
                 />
                 <CardItem
                   src={img1}
-                  text="Delhi has great historical place as it was home to powerful people, Pandavas... "
+                  text="Delhi has great historical place as it was home to powerful... "
                   label="DELHI"
                   path="/goldentriangletour"
                 />
                 <CardItem
                   src={mandu}
-                  text="Parmara kings like Munja and Bhoja also had a great influence in Mandu and Munja Tal... "
+                  text="Parmara kings like Bhoja also had a great influence in... "
                   label="MANDU"
                   path="/turevacationmptour"
                 />

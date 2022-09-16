@@ -39,7 +39,13 @@ const Contact = () => {
                 we advise you to use the electronic form of communication.
               </p>
               <p className="text-gray-600 text-sm">
-                <strong>+123456789</strong>
+                <strong><a href="tel:+919560644681">+91 9560644681</a></strong>
+              </p>
+              <p className="text-gray-600 text-sm">
+                <strong><a href="tel:+917566574007">+91 7566574007</a></strong>
+              </p>
+              <p className="text-gray-600 text-sm">
+                <strong><a href="https://api.whatsapp.com/send?phone=8829974681" target="_blank">+91 8829974681</a></strong>
               </p>
             </div>
             <div className="col-md-4 col-12 block-icon-hover text-center">
@@ -54,7 +60,7 @@ const Contact = () => {
               <ul className="list-unstyled text-sm mb-0">
                 <li>
                   <strong>
-                    <Link to="mailto:">info@Eurostart.com</Link>
+                  <a href="mailto:truevacationkhajuraho@gmail.com">truevacationkhajuraho@gmail.com</a>
                   </strong>
                 </li>
               </ul>
@@ -108,7 +114,7 @@ const Contact = () => {
                   </div>
                   <div className="col-md-12  col-12 text-center">
                     <button className="btn btn-outline-primary" type="submit">
-                      <i className="far fa-envelope me-2"></i>Send message
+                     Send message
                     </button>
                   </div>
                 </div>

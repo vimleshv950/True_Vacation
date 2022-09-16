@@ -9,11 +9,11 @@
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 3px;
-  background: rgba(0, 0, 0, 0.4) !important;
+  background: rgba(0, 0, 0, 0.5) !important;
   padding: 0 0px;
-  
-  
+
 }
+
 .navbar-nav li {
   padding: 0 15px;
 }

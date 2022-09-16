@@ -47,28 +47,28 @@ const Footer = () => {
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Best Tour</h6>
                 <p>
-                  <Link to="/" className="active footer-link">
+                  <Link to="/goldentringlewithcentralindiagoa" className="active footer-link">
                     Delhi
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="footer-link">
-                    Bhopal
+                  <Link to="/gwaliororchhakhajuraho" className="footer-link">
+                  Gwalior 
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="footer-link">
+                  <Link to="/goldentriangletour" className="footer-link">
                   Jaipur
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="footer-link">
-                    Agra  
+                  <Link to="/weekendspecialkhajurahotour" className="footer-link">
+                    Khajuraho  
                   </Link>
                 </p>
                 <p>
-                  <Link to="/" className="footer-link">
-                    Vanarasi  
+                  <Link to="/divinecentralindiatour" className="footer-link">
+                  Chitrakoot
                   </Link>
                 </p>
               </div>

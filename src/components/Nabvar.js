@@ -1,11 +1,24 @@
-import React from 'react'
+import React, {useState}from 'react'
 import './navbar.css'
 import {Link} from 'react-router-dom'
 import logo from './../assets/img/logo.jpeg'
 
 const Nabvar = () => {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
   return (
     <>
+
+
+
   <nav className="navbar navbar-expand-lg bg-dark shadow fixed-top px-5">
   <div className="container-fluid">
     <Link className="navbar-brand" to='/'>
@@ -32,7 +45,7 @@ const Nabvar = () => {
           <Link className="nav-link" to='/about'>About</Link>
         </li>
         <li className="nav-item ">
-          <Link className="nav-link last_link" to='/'>Covid</Link>
+          <Link className="nav-link last_link" to='/about'>Covid</Link>
         </li>
        
     
