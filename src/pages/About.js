@@ -8,15 +8,14 @@ const About = () => {
     <>
       {/* <!-- ABOUT SECTION--> */}
 
-
-
-
       <section className="py-5">
         <div className="container py-4">
           <header className="mb-5">
             <h2 className="text-uppercase lined mb-4">About TURE VACATION</h2>
             <p className="lead">
-            True Vacation Tour & Travel offers unique and authentic travel experience with range of services to cater the needs of all types of tourists in the Indian Subcontinent.
+              True Vacation Tour & Travel offers unique and authentic travel
+              experience with range of services to cater the needs of all types
+              of tourists in the Indian Subcontinent.
             </p>
           </header>
           <div className="row gy-4">
@@ -35,7 +34,7 @@ const About = () => {
                       aria-expanded="true"
                       aria-controls="aboutAccordion-collapseOne"
                     >
-                     Introduction
+                      Introduction
                     </button>
                   </h5>
                   <div
@@ -47,8 +46,11 @@ const About = () => {
                     <div className="accordion-body">
                       <div className="row">
                         <div className="col-md-4">
-                          <img className="img-fluid" src={vishwanath} alt="..." />
-                        
+                          <img
+                            className="img-fluid"
+                            src={vishwanath}
+                            alt="..."
+                          />
                         </div>
                         <div className="col-md-8">
                           <p>
@@ -99,7 +101,6 @@ const About = () => {
                       <div className="row">
                         <div className="col-md-4">
                           <img className="img-fluid" src={img2} alt="..." />
-                        
                         </div>
                         <div className="col-md-8">
                           <p>

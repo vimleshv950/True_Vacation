@@ -19,7 +19,7 @@
   font-family: "monospace", sans-serif;
   color: #dee2e6;
   font-family: "monospace", sans-serif;
-  text-shadow: 10px 1px 3px #1ebba3;
+
   word-spacing: 2px;
   letter-spacing: 5px;
 }
@@ -30,6 +30,5 @@
   font-family: monospace;
   letter-spacing: 3px;
   word-spacing: 1px;
-  color: #1ebba3;
-  text-shadow: 1px 2px 1px rgba(255, 251, 251, 0.8);
+  color: #000;
 }

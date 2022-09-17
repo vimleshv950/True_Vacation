@@ -232,9 +232,9 @@ import pic51 from "./../assets/img/pic-51.jpeg";
 import pic52 from "./../assets/img/pic-52.jpeg";
 import pic53 from "./../assets/img/pic-53.jpeg";
 import pic54 from "./../assets/img/pic-54.jpeg";
-import pic55 from "./../assets/img/pic-55.jpeg";
+import pic60 from "./../assets/img/pic-60.jpeg";
 import pic56 from "./../assets/img/pic-56.jpeg";
-// import pic57 from "./../assets/img/pic-57.jpeg";
+import pic59 from "./../assets/img/pic-59.jpeg";
 import pic58 from "./../assets/img/pic-58.jpeg";
 import bicycle1 from "./../assets/img/bicycle1.jpeg";
 
@@ -342,6 +342,26 @@ const Gallery = () => {
                 <img
                   src={pic19}
                   alt="gwalior_orchha"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic59}
+                  alt="gadi-sagar"
+                  className="img-fluid gallery_img"
+                  style={{ height: 280, width: 500 }}
+                />
+              </figure>
+            </div>
+            <div className="col-md-4 col-10 mx-auto">
+              <figure>
+                <img
+                  src={pic60}
+                  alt="gadi-sagar"
                   className="img-fluid gallery_img"
                   style={{ height: 280, width: 500 }}
                 />

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Cards.styles.css";
 import CardItem from "./CardItem";
+import { useNavigate } from "react-router-dom";
 
 import orchha1 from "../../assets/img/orchha-1.jpg";
 import khajuraho5 from "../../assets/img/khajuraho-5.jpg";
@@ -27,6 +28,7 @@ import img35 from "../../assets/img/img-35.jpg";
 import taj6 from "../../assets/img/taj-6.jpg";
 
 function Cards() {
+  const navigate = useNavigate();
   return (
     <section class="py-5">
       <div class="container py-4">
@@ -44,13 +46,13 @@ function Cards() {
               <ul className="cards__items">
                 <CardItem
                   src={khajuraho5}
-                  text="The Khajuraho Group of Monuments are a group of Hindu and Jain temples..."
+                  text="WEEK-END SPECIAL KHAJURAHO TOUR..."
                   label="KHAJURAHO"
                   path="/weekendspecialkhajurahotour"
                 />
                 <CardItem
                   src={orchha1}
-                  text="The historic town of Orchha, nestled on the banks of river Betwa, was founded in the 16th century..."
+                  text="ORCHHA - KHAJURAHO TOUR..."
                   label="ORCHHA"
                   path="/OrchhaKhajurahoTour"
                 />
@@ -58,19 +60,19 @@ function Cards() {
               <ul className="cards__items">
                 <CardItem
                   src={gwalior1}
-                  text="Gwalior holds an important place in the heart of india..."
+                  text="GOLDEN TRIANGLE TOUR 7 DAYS..."
                   label="GWALIOR"
                   path="/gwaliororchhakhajuraho"
                 />
                 <CardItem
                   src={jaipur2}
-                  text="India's famous Golden Triangle, a popular tourist circuit..."
+                  text="GOLDEN TRIANGLE TOUR 7 DAYS..."
                   label="JAIPUR"
                   path="/goldentriangletour"
                 />
                 <CardItem
                   src={varanas1}
-                  text="Varanasi is one of the oldest living cities in the world..."
+                  text="GOLDEN TRIANGLE WITH CENTRAL INDIA GOA"
                   label="VARANASI"
                   path="/goldentringlewithcentralindiagoa"
                 />
@@ -78,19 +80,19 @@ function Cards() {
               <ul className="cards__items">
                 <CardItem
                   src={agra1}
-                  text="Agra is a city on the banks of the river Yamuna in northern..."
+                  text="GOLDEN TRIANGLE TOUR 7 DAYS"
                   label="AGRA"
                   path="/goldentriangletour"
                 />
                 <CardItem
                   src={img1}
-                  text="Delhi has great historical place as it was home to powerful... "
+                  text="GOLDEN TRIANGLE TOUR 7 DAYS... "
                   label="DELHI"
                   path="/goldentriangletour"
                 />
                 <CardItem
                   src={mandu}
-                  text="Parmara kings like Bhoja also had a great influence in... "
+                  text="MP TOUR"
                   label="MANDU"
                   path="/turevacationmptour"
                 />
@@ -98,19 +100,19 @@ function Cards() {
               <ul className="cards__items">
                 <CardItem
                   src={orchha3}
-                  text="Thr"
+                  text="ORCHHA- KHAJURAHO TOUR"
                   label="JHANSI"
                   path="/orchhakhajurahotour"
                 />
                 <CardItem
                   src={img19}
-                  text="Thre"
+                  text="DIVINE CENTRAL INDIA TOUR... "
                   label="CHITRAKOOT"
                   path="/divinecentralindiatour"
                 />
                 <CardItem
                   src={mumbai1}
-                  text="Thre"
+                  text="GOLDEN TRIANGLE WITH CENTRAL INDIA GOA..."
                   label="MUMBAI"
                   path="/goldentringlewithcentralindiagoa"
                 />
@@ -118,67 +120,82 @@ function Cards() {
               <ul className="cards__items">
                 <CardItem
                   src={img58}
-                  text="Three-days Private Heritage Tour of Khajuraho & Orchha"
+                  text="GOLDEN TRIANGLE WITH CENTRAL INDIA GOA..."
                   label="GOA"
                   path="/goldentringlewithcentralindiagoa"
                 />
                 <CardItem
                   src={bhojpur2}
-                  text="Three-days Private Heritage Tour of Khajuraho & Orchha"
+                  text="MP TOUR..."
                   label="BHOPAL"
                   path="/turevacationmptour"
                 />
                 <CardItem
                   src={badhwgah}
-                  text="Three-days Private Heritage Tour of Khajuraho & Orchha"
+                  text="MEDIEVAL CULTURE WITH WILDLIFE TOUR..."
                   label="BANDHAVGARH"
                   path="/medievalculturewithwildlifetour"
                 />
               </ul>
               <ul className="cards__items">
-              <CardItem
-                src={sadhu2}
-                text="Three-days Private Heritage Tour of Khajuraho & Orchha"
-                label="SARNATH "
-                path="/divinecentralindiatour"
-              />
-              <CardItem
-                src={img24}
-                text="Three-days Private Heritage Tour of Khajuraho & Orchha"
-                label="PRAYAGRAJ "
-                path="/divinecentralindiatour"
-              />
+                <CardItem
+                  src={sadhu2}
+                  text="DIVINE CENTRAL INDIA TOUR..."
+                  label="SARNATH "
+                  path="/divinecentralindiatour"
+                />
+                <CardItem
+                  src={img24}
+                  text="DIVINE CENTRAL INDIA TOUR..."
+                  label="PRAYAGRAJ "
+                  path="/divinecentralindiatour"
+                />
 
-              <CardItem
-                src={img13}
-                text="Three-days Private Heritage Tour of Khajuraho & Orchha"
-                label="SANCHI "
-                path="/turevacationmptour"
-              />
+                <CardItem
+                  src={img13}
+                  text="MP TOUR..."
+                  label="SANCHI "
+                  path="/turevacationmptour"
+                />
               </ul>
               <ul className="cards__items">
-              <CardItem
-                src={bhojpur2}
-                text="Three-days Private Heritage Tour of Khajuraho & Orchha"
-                label="BHOJPUR "
-                path="/turevacationmptour"
-              />
-              <CardItem
-                src={img35}
-                text="Three-days Private Heritage Tour of Khajuraho & Orchha"
-                label="INDORE "
-                path="/turevacationmptour"
-              />
-              <CardItem
-                src={taj6}
-                text="Experience Football on Top of the Himilayan Mountains"
-                label="AGRA"
-                path="/goldentringlewithcentralindiagoa"
-              />
+                <CardItem
+                  src={bhojpur2}
+                  text="MP TOUR..."
+                  label="BHOJPUR "
+                  path="/turevacationmptour"
+                />
+                <CardItem
+                  src={img35}
+                  text="MP TOUR..."
+                  label="INDORE "
+                  path="/turevacationmptour"
+                />
+                <CardItem
+                  src={taj6}
+                  text="GOLDEN TRIANGLE WITH CENTRAL INDIA GOA..."
+                  label="AGRA"
+                  path="/goldentringlewithcentralindiagoa"
+                />
               </ul>
             </div>
+
+            {/* 
             <button className="button w-50 mx-auto mb-5">
               <a href="/destination">Explore More</a>
+            </button> */}
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row  mx-auto ">
+          <div className="col-12 ">
+            <button
+              type="button"
+              onClick={() => navigate("/destination")}
+              className="button w-50 mb-5 mx-auto"
+            >
+              Explore More
             </button>
           </div>
         </div>

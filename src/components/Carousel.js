@@ -40,6 +40,7 @@ const Carousel = () => {
             <h5>The journey of a thousand miles beginns with a single step.</h5>
           </div>
         </div>
+       
         <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="2000">
           <img src={slide2} className="d-block w-100" alt="..." />
@@ -58,6 +59,13 @@ const Carousel = () => {
         <div className="carousel-item" data-bs-interval="2000">
           <img src={slide4} className="d-block w-100" alt="..." />
           <div className="heading-carousel carousel-caption d-none d-md-block">
+            <h1 className="text-gray-600">Make Travel Awesome</h1>
+            <h5>The  world is a book and those who not travel  read only one page.</h5>
+          </div>
+        </div>
+        <div className="carousel-item" data-bs-interval="2000">
+          <img src={slide10} className="d-block w-100" alt="..." />
+          <div className="heading-carousel carousel-caption d-none d-md-block">
             <h1 className="text-gray-600">Travel well on a budget</h1>
             <h5>The journey of a thousand miles beginns with a single step.</h5>
           </div>
@@ -65,15 +73,15 @@ const Carousel = () => {
         <div className="carousel-item" data-bs-interval="2000">
           <img src={slide5} className="d-block w-100" alt="..." />
           <div className="heading-carousel carousel-caption d-none d-md-block">
-            <h1 className="text-gray-600">Travel well on a budget</h1>
+            <h1 className="text-gray-600">Plan a road trip</h1>
             <h5>The journey of a thousand miles beginns with a single step.</h5>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
           <img src={slide6} className="d-block w-100" alt="..." />
           <div className="heading-carousel carousel-caption d-none d-md-block">
-            <h1 className="text-gray-600">Travel well on a budget</h1>
-            <h5>The journey of a thousand miles beginns with a single step.</h5>
+            <h1 className="text-gray-600">Stress free vacation</h1>
+            <h5>Adventures are the best way to learn.</h5>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
@@ -86,8 +94,8 @@ const Carousel = () => {
         <div className="carousel-item" data-bs-interval="2000">
           <img src={slide8} className="d-block w-100" alt="..." />
           <div className="heading-carousel carousel-caption d-none d-md-block">
-            <h1 className="text-gray-600">Travel well on a budget</h1>
-            <h5>The journey of a thousand miles beginns with a single step.</h5>
+            <h1 className="text-gray-600">Plan a road trip</h1>
+            <h5>Some beautiful paths can't be discovered without getting lost.</h5>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
@@ -97,18 +105,12 @@ const Carousel = () => {
             <h5>The journey of a thousand miles beginns with a single step.</h5>
           </div>
         </div>
-        <div className="carousel-item" data-bs-interval="2000">
-          <img src={slide10} className="d-block w-100" alt="..." />
-          <div className="heading-carousel carousel-caption d-none d-md-block">
-            <h1 className="text-gray-600">Travel well on a budget</h1>
-            <h5>The journey of a thousand miles beginns with a single step.</h5>
-          </div>
-        </div>
+       
         <div className="carousel-item" data-bs-interval="2000">
           <img src={slide11} className="d-block w-100" alt="..." />
           <div className="heading-carousel carousel-caption d-none d-md-block">
-            <h1 className="text-gray-600">Travel well on a budget</h1>
-            <h5>The journey of a thousand miles beginns with a single step.</h5>
+            <h1 className="text-gray-600">Plan a road trip</h1>
+            <h5>Some beautiful paths can't be discovered without getting lost.</h5>
           </div>
         </div>
         

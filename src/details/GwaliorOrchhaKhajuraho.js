@@ -9,7 +9,6 @@ import jayvishalpalace1 from "./../assets/img/jayvishal-palace-1.jpg";
 import betwa from "./../assets/img/betwa.jpg";
 import khajuraho20 from "./../assets/img/khajuraho-20.jpg";
 import khajuraho29 from "./../assets/img/khajuraho-29.jpg";
-
 import img55 from "./../assets/img/img-55.jpg";
 
 const GwaliorOrchhaKhajuraho = () => {
@@ -19,9 +18,9 @@ const GwaliorOrchhaKhajuraho = () => {
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">
-            Golden Triangle Tour 7 Days{" "}
+            Mumbai - gwalior - khajuraho tour
           </h2>
-          <p className="text-sm mb-5 text-gray-600">Delhi - Agra - Jaipur</p>
+          <p className="text-sm mb-5 text-gray-600"> 06 - 07 days </p>
           <div className="row mx-auto mb-5">
             <div className="main_img col-12 col-md-6">
               <img
@@ -201,7 +200,6 @@ const GwaliorOrchhaKhajuraho = () => {
               </div>
             </div>
           </div>
-         
         </div>
         <div className="container">
           <div className="row mx-auto ">
@@ -213,8 +211,6 @@ const GwaliorOrchhaKhajuraho = () => {
               >
                 Go Back
               </button>
-              
-              
             </div>
           </div>
         </div>

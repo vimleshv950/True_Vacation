@@ -5,11 +5,11 @@
   background: rgba(0, 0, 0) !important;
 }
 
-.container-footer  .footer_company  span{
+.container-footer .footer_company span {
   color: #2ae0c5;
   font-weight: 600;
   /* font-size: large; */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .container-footer h6 {
@@ -40,6 +40,6 @@
 .footer_company p {
   color: #fff;
 }
-.social-media-icons a{
+.social-media-icons a {
   font-size: 25px;
 }

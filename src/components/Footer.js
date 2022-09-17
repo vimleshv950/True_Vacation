@@ -18,10 +18,10 @@ const Footer = () => {
         <section className="">
           <div className=" container-fluid container-footer text-center text-md-start mt-5">
             <div className="row mt-3">
-              <div className="footer_company col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div className="footer_company col-12 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Company name</h6>
                 <p>
-                  <span>TURE VACATION</span> is a website that helps travelers find the best places to travel, and provides the best services that make your tour very memorial moment.
+                  <span>TRUE VACATION</span> is a website that helps travelers find the best places to travel, and provides the best services that make your tour very memorial moment.
                 </p>
                 <div className="social-media-icons">
                   <a href="https://www.facebook.com/people/Truevacation-India/100071351372185" className="me-4 text-reset" target="_blank">
@@ -124,9 +124,9 @@ const Footer = () => {
             </div>
             <hr />
             <div className="text-center">
-          © 2021 Copyright:
-          <a className="text-reset" href="/">
-            OneWonLabs.in
+            All Right Reserved 
+          <a className="text-reset" href="https://onewon.in/">
+          @OnewonLabs Pvt. Ltd.
           </a>
         </div>
           </div>
