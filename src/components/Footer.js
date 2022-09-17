@@ -118,7 +118,7 @@ const Footer = () => {
                   <FaPhoneAlt className="mx-2"/> <a href="tel:+917566574007">+91 7566574007</a>
                 </p>
                 <p>
-                  <FaPhoneAlt className="mx-2"/> <a href="https://api.whatsapp.com/send?phone=8829974681" target="_blank">+91 8829974681</a>
+                  <FaPhoneAlt className="mx-2"/> <a href="https://api.whatsapp.com/send?phone=+918829974681" target="_blank">+918829974681</a>
                 </p>
               </div>
             </div>

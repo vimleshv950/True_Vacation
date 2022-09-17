@@ -20,16 +20,20 @@
 .nav-link {
   letter-spacing: 3px;
 }
-.nav-item .last_link {
+.nav-item .last_link a{
   border: 2px solid #ffffff;
+  width: 100px;
   background: #000;
   color: #fff;
   border-radius: 3px;
 }
 
 .nav-item .last_link:hover {
-  border: 2px solid #1ebba3;
-  cursor: pointer;
+  /* border: 2px solid #53ce60;
+  cursor: pointer; */
+}
+.FaWhatsappSquare{
+  /* font-size: 20px; */
 }
 
 .nav-item .nav-link {
@@ -50,4 +54,13 @@
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #1ebba3;
+}
+/* .whatsapp_icon_list{
+  height: 100px;
+} */
+.whatsapp_icon{
+  /* height: 200px; */
+}
+.whatsapp_icon{
+  font-size: 50px;
 }

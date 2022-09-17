@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import logo from "./../assets/img/logo.jpeg";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 const Nabvar = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -59,9 +60,13 @@ const Nabvar = () => {
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link className="nav-link last_link" to="/">
-                  Covid
-                </Link>
+                <a
+                  href="https://wa.me/+918829974681"
+                  target="_blank"
+                  className="nav-link last_link"
+                >
+                  <FaWhatsappSquare className="whatsapp_icon" />
+                </a>
               </li>
             </ul>
           </div>
