@@ -60,7 +60,7 @@ const Contact = () => {
               <ul className="list-unstyled text-sm mb-0">
                 <li>
                   <strong>
-                  <a href="mailto:truevacationkhajuraho@gmail.com">truevacationkhajuraho@gmail.com</a>
+                  <a href="mailto:info@tvktours.com">info@tvktours.com</a>
                   </strong>
                 </li>
               </ul>

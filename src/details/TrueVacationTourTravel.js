@@ -6,7 +6,7 @@ import bhojpur2 from "./../assets/img/bhojpur-2.jpg";
 import khajuraho29 from "./../assets/img/khajuraho-29.jpg";
 import brahaspatikund from "./../assets/img/brahaspati-kund.jpg";
 import mandu from "./../assets/img/mandu.jpeg";
-import bhojpur1 from "./../assets/img/bhojpur-1.jpg";
+import ujjain1 from "./../assets/img/ujjain1.jpg";
 import unesco from "./../assets/img/unesco.jpg";
 import img35 from "./../assets/img/img-35.jpg";
 import khajuraho22 from "./../assets/img/khajuraho-22.jpg";
@@ -169,7 +169,7 @@ const TrueVacationTourTravel = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={bhojpur1}
+                  src={ujjain1}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />

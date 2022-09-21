@@ -9,7 +9,7 @@ import slide6 from './../assets/slide_img/slide-6.jpg'
 import slide7 from './../assets/slide_img/slide-7.jpg'
 import slide8 from './../assets/slide_img/slide-8.jpg'
 import slide9 from './../assets/slide_img/slide-9.jpg'
-import slide10 from './../assets/slide_img/slide-10.jpg'
+import img4 from './../assets/img/img-4.jpg'
 import slide11 from './../assets/slide_img/slide-11.jpg'
 
 
@@ -64,7 +64,7 @@ const Carousel = () => {
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
-          <img src={slide10} className="d-block w-100" alt="..." />
+          <img src={img4} className="d-block w-100" alt="..." />
           <div className="heading-carousel carousel-caption d-none d-md-block">
             <h1 className="text-gray-600">Travel well on a budget</h1>
             <h5>The journey of a thousand miles beginns with a single step.</h5>

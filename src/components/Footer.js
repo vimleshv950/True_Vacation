@@ -109,7 +109,7 @@ const Footer = () => {
                 </p>
                 <p>
                   <FaMailBulk className="mx-2"/> 
-                    <a href="mailto:truevacationkhajuraho@gmail.com">truevacationkhajuraho@gmail.com</a> 
+                    <a href="mailto:truevacationkhajuraho@gmail.com">info@tvktours.com</a> 
                 </p>
                 <p>
                   <FaPhoneAlt className="mx-2"/> <a href="tel:+919560644681">+91 9560644681</a>
@@ -139,3 +139,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

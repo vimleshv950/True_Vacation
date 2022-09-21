@@ -2,14 +2,14 @@ import React from "react";
 import "./details.css";
 import { useNavigate } from "react-router-dom";
 import mumbai1 from "./../assets/img/mumbai-1.jpg";
-import orchha1 from "./../assets/img/orchha-1.jpg";
+import gwalior3 from "./../assets/img/gwalior-3.jpg";
 import orchha8 from "./../assets/img/orchha-8.jpg";
 import gwalior4 from "./../assets/img/gwalior-4.jpg";
 import jayvishalpalace1 from "./../assets/img/jayvishal-palace-1.jpg";
 import betwa from "./../assets/img/betwa.jpg";
 import khajuraho20 from "./../assets/img/khajuraho-20.jpg";
 import khajuraho29 from "./../assets/img/khajuraho-29.jpg";
-import img55 from "./../assets/img/img-55.jpg";
+import img9 from "./../assets/img/img-9.jpg";
 
 const GwaliorOrchhaKhajuraho = () => {
   const navigate = useNavigate();
@@ -32,7 +32,7 @@ const GwaliorOrchhaKhajuraho = () => {
             </div>
             <div className="main_img col-md-6">
               <img
-                src={orchha1}
+                src={gwalior3}
                 className="img-fluid"
                 alt="khajuraho"
                 style={{ height: 400 }}
@@ -193,7 +193,7 @@ const GwaliorOrchhaKhajuraho = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={img55}
+                  src={img9}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />

@@ -3,23 +3,23 @@ import "./details.css";
 import { useNavigate } from "react-router-dom";
 import mumbai1 from "./../assets/img/mumbai-1.jpg";
 import jaipur4 from "./../assets/img/jaipur-4.jpg";
-import agra1 from "./../assets/img/agra-1.jpg";
+import img55 from "./../assets/img/img-55.jpg";
 
 import hawamahal2 from "./../assets/img/hawa-mahal-2.jpg";
 import hawamahal1 from "./../assets/img/hawa-mahal-1.jpg";
 import amerfort from "./../assets/img/amer-fort.jpg";
 import taj5 from "./../assets/img/taj-5.jfif";
 import taj6 from "./../assets/img/taj-6.jpg";
-import khajuraho6 from "./../assets/img/khajuraho-6.jpg";
+import img4 from "./../assets/img/img-4.jpg";
 import khajuraho1 from "./../assets/img/khajuraho-1.jpg";
 
 import laxman from "./../assets/img/laxman.jpg";
-import ranehfall from "./../assets/img/raneh-fall.jpg";
-import img61 from "./../assets/img/img-61.jpeg";
-import img63 from "./../assets/img/img-63.jpeg";
+import img23 from "./../assets/img/img-23.jpg";
+import elephanta2 from "./../assets/img/elephanta-2.jpg";
+import goa1 from "./../assets/img/goa1.jpg";
 import img58 from "./../assets/img/img-58.jpeg";
-import img49 from "./../assets/img/img-49.jpg";
-import img44 from "./../assets/img/img-44.jpg";
+import img18 from "./../assets/img/img-18.jpg";
+import img19 from "./../assets/img/img-19.jpg";
 import img51 from "./../assets/img/img-51.jpg";
 
 
@@ -87,7 +87,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={agra1}
+                  src={img55}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
@@ -276,7 +276,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={khajuraho6}
+                  src={img4}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
@@ -305,7 +305,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={ranehfall}
+                  src={img23}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
@@ -366,7 +366,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={img61}
+                  src={elephanta2}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
@@ -388,7 +388,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={img63}
+                  src={img58}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
@@ -409,7 +409,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={img58}
+                  src={goa1}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
@@ -431,7 +431,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={img49}
+                  src={img19}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
@@ -450,7 +450,7 @@ const GoldenTringleWithCentralIndiaGoa = () => {
             <div className="col-12 col-md-4">
               <div className="sub_img">
                 <img
-                  src={img44}
+                  src={img18}
                   style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
