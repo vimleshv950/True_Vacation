@@ -1,5 +1,5 @@
 import React from "react";
-import { MdMedicalServices, MdEmojiPeople,MdLocationOn } from "react-icons/md";
+import { MdLocalHotel, MdEmojiPeople,MdLocationOn } from "react-icons/md";
 import { FcIdea } from "react-icons/fc";
 import { SiKakaotalk, SiMarketo } from "react-icons/si";
 import "./services.css";
@@ -25,14 +25,14 @@ const Services = () => {
             <div className="col-12 col-md-4">
               <div className="feature-box-1">
                 <div className="icon">
-                  <MdMedicalServices />
+                  <MdLocalHotel />
                 </div>
                 <div className="feature-content">
-                  <h5>Medical Facility</h5>
+                  <h5>Hotel Facility</h5>
                   <p>
-                    Plan your Health Tour in India with Indian TV-Tour. Health
-                    Tour in India is your solution to a highest quality medical
-                    treatment within your budget, in India.
+                  Bookings are available for various hotels like Ac & Non-Ac, Luxurious & Non-luxurious.
+                  {/* As agent in India, */}
+                   Tvk_Tours knows where to book the best hotel for your tours. We are specialty in finding hotels according our customers’ needs and price.   
                   </p>
                 </div>
               </div>
