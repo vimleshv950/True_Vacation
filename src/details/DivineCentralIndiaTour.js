@@ -11,15 +11,23 @@ import varanas1 from "./../assets/img/varanas-1.jpg";
 import varanas2 from "./../assets/img/varanas-2.jpg";
 import varanas3 from "./../assets/img/varanas-3.jpg";
 import chhatris_orchha from "./../assets/img/chhatris_orchha.jpg";
+import { Helmet } from "react-helmet";
 
 const DivineCentralIndiaTour = () => {
   const navigate = useNavigate();
   return (
     <>
+  <Helmet>
+        <title>Divine Central India Tour</title>
+
+        <meta name="description" content="Divine Central India Tour" />
+      </Helmet>
+
+
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">
-            Divine Central India Tour{" "}
+            Divine Central India Tour
           </h2>
           <p className="text-sm mb-5 text-gray-600">(7 Nights & 08 Days)</p>
           <div className="row mx-auto mb-5">

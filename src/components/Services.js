@@ -31,7 +31,7 @@ const Services = () => {
                   <h5>Hotel Facility</h5>
                   <p>
                   Bookings are available for various hotels like Ac & Non-Ac, Luxurious & Non-luxurious.
-                  {/* As agent in India, */}
+                  
                    Tvk_Tours knows where to book the best hotel for your tours. We are specialty in finding hotels according our customers’ needs and price.   
                   </p>
                 </div>

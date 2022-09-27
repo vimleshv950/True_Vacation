@@ -7,14 +7,20 @@ import bicycle1 from "./../assets/img/bicycle1.jpeg";
 import khajuraho14 from "./../assets/img/khajuraho-14.jpg";
 import khajuraho1 from "./../assets/img/khajuraho-1.jpg";
 import khajuraho22 from "./../assets/img/khajuraho-22.jpg";
+import { Helmet } from "react-helmet";
 
 const KhajurahoBicycleTour = () => {
   const navigate = useNavigate();
   return (
     <>
+ <Helmet>
+        <title>Khajuraho Bicycle Tour</title>
+
+        <meta name="description" content="KhajurahoBicycleTour" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
-          <h2 className="text-uppercase lined mb-4">Orchha- Khajuraho Tour</h2>
+          <h2 className="text-uppercase lined mb-4">Khajuraho Bicycle Tour</h2>
           <p className="text-sm mb-5 text-gray-600">(2 Nights & 03 Days)</p>
           <div className="row mx-auto mb-5">
             <div className="main_img col-12 col-md-6">

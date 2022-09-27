@@ -15,11 +15,17 @@ import orchha2 from "./../assets/img/orchha-2.jpg";
 import orchha1 from "./../assets/img/orchha-1.jpg";
 
 
+import { Helmet } from "react-helmet";
 
 const TureVacationMpTour = () => {
   const navigate = useNavigate();
   return (
     <>
+  <Helmet>
+        <title>MP Tour</title>
+
+        <meta name="description" content="MP Tour" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">

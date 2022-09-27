@@ -13,12 +13,18 @@ import khajuraho22 from "./../assets/img/khajuraho-22.jpg";
 import orchha2 from "./../assets/img/orchha-2.jpg";
 import car4 from "./../assets/img/car-4.jpeg";
 import khajuraho16 from "./../assets/img/khajuraho-16.jpg";
+import { Helmet } from "react-helmet";
 
 
 const TrueVacationTourTravel = () => {
   const navigate = useNavigate();
   return (
     <>
+ <Helmet>
+        <title>MP Tour</title>
+
+        <meta name="description" content="MP Tour" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">MP Tour</h2>

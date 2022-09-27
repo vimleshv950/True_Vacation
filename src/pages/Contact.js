@@ -2,9 +2,18 @@ import React from "react";
 import "./contact.css";
 import { Link } from "react-router-dom";
 import { GoLocation } from "react-icons/go";
+import { Helmet } from "react-helmet";
 const Contact = () => {
   return (
     <>
+ <Helmet>
+        <title>Contact Us</title>
+
+        <meta
+          name="description"
+          content="Contact our team"
+        />
+      </Helmet>
       <section className="py-5 contact_section">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">We are here to help you</h2>

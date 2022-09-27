@@ -244,10 +244,18 @@ import yoga2 from "./../assets/img/yoga-2.jpeg";
 import yoga3 from "./../assets/img/yoga-3.jpeg";
 import yoga4 from "./../assets/img/yoga-4.jpg";
 import yoga9 from "./../assets/img/yoga-9.jpeg";
+import { Helmet } from "react-helmet";
 
 const Gallery = () => {
   return (
     <>
+      <Helmet>
+        <title>Gallery</title>
+        <meta
+          name="description"
+          content="Memories and experience of our customer"
+        />
+      </Helmet>
       <div className="py-5 ">
         <div className="container py-4">
           <h2 class="text-uppercase lined mb-4">Memories</h2>
@@ -255,9 +263,6 @@ const Gallery = () => {
           {/* <hr className="w-50 mx-auto" /> */}
 
           <div className="row  gx-5">
-
-
-
             {/* 444444444444444444444444444444 */}
             <div className="col-md-4 col-10 mx-auto">
               <figure>
@@ -269,7 +274,6 @@ const Gallery = () => {
                 />
               </figure>
             </div>
-          
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
@@ -310,7 +314,6 @@ const Gallery = () => {
                 />
               </figure>
             </div>
-           
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
@@ -321,12 +324,7 @@ const Gallery = () => {
                 />
               </figure>
             </div>
-
-
-
             {/* 444444444444444444444444444444 */}
-
-            
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
@@ -377,7 +375,6 @@ const Gallery = () => {
                 />
               </figure>
             </div>
-          
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
@@ -438,7 +435,6 @@ const Gallery = () => {
                 />
               </figure>
             </div>
-           
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img
@@ -789,7 +785,6 @@ const Gallery = () => {
                 />
               </figure>
             </div>
-          
             <div className="col-md-4 col-10 mx-auto">
               <figure>
                 <img

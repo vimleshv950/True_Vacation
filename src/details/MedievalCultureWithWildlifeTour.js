@@ -11,15 +11,22 @@ import bhedaghat from "./../assets/img/bhedaghat.jpg";
 
 import khajuraho25 from "./../assets/img/khajuraho-25.jpg";
 import khajuraho14 from "./../assets/img/khajuraho-14.jpg";
+import { Helmet } from "react-helmet";
 
 const MedievalCultureWithWildlifeTour = () => {
   const navigate = useNavigate();
   return (
+
     <>
+      <Helmet>
+        <title>Medieval Culture With Wildlife Tour</title>
+
+        <meta name="description" content="Medieval Culture With Wildlife Tour" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">
-            Medieval Culture With Wildlife Tour{" "}
+            Medieval Culture With Wildlife Tour
           </h2>
           <p className="text-sm mb-5 text-gray-600">(4 Nights & 05 Days)</p>
           <div className="row mx-auto mb-5">

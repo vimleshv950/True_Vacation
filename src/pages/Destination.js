@@ -14,10 +14,19 @@ import orchha7 from "./../assets/img/orchha-7.jpg";
 import khajuraho26 from "./../assets/img/khajuraho-26.jpg";
 import pic59 from "./../assets/img/pic-59.jpeg";
 import pandavfall2 from "./../assets/img/pandav-fall-2.jpg";
+import { Helmet } from "react-helmet";
 
 const Destination = () => {
   return (
     <>
+      <Helmet>
+        <title>Explore Destination</title>
+
+        <meta
+          name="description"
+          content="Epic Destination in india for Vacation"
+        />
+      </Helmet>
       <section className="py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">

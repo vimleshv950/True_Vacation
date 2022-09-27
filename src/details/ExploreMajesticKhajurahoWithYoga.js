@@ -7,12 +7,18 @@ import yoga9 from "./../assets/img/yoga-9.jpeg";
 import yoga3 from "./../assets/img/yoga-3.jpeg";
 
 import yoga11 from "./../assets/img/yoga-11.jpeg";
+import { Helmet } from "react-helmet";
 
 
 const ExploreMajesticKhajurahoWithYoga = () => {
   const navigate = useNavigate();
   return (
     <>
+  <Helmet>
+        <title>EXPLORE MAJESTIC KHAJURAHO WITH YOGA</title>
+
+        <meta name="description" content="EXPLORE MAJESTIC KHAJURAHO WITH YOGA" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">

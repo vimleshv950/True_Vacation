@@ -6,11 +6,20 @@ import khajuraho9 from "./../assets/img/khajuraho-9.jpg";
 import khajuraho17 from "./../assets/img/khajuraho-17.jpg";
 import khajuraho22 from "./../assets/img/khajuraho-22.jpg";
 import khajuraho7 from "./../assets/img/khajuraho-7.jpg";
+import { Helmet } from "react-helmet";
 
 const SpecialKhajurahoTour = () => {
   const navigate = useNavigate();
   return (
     <>
+ <Helmet>
+        <title> Week-end Special Khajuraho Tour</title>
+
+        <meta
+          name="description"
+          content=" Week-end Special Khajuraho Tour"
+        />
+      </Helmet>
       <section className="py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">

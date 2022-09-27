@@ -8,11 +8,17 @@ import khajuraho9 from "./../assets/img/khajuraho-9.jpg";
 import laxman from "./../assets/img/laxman.jpg";
 import ranehfall from "./../assets/img/ranehfall.jpg";
 import khajuraho30 from "./../assets/img/khajuraho-30.jpg";
+import { Helmet } from "react-helmet";
 
 const PrivateHeritageTour = () => {
   const navigate = useNavigate();
   return (
     <>
+ <Helmet>
+        <title>Private Heritage Tour of Khajuraho & Orchha</title>
+
+        <meta name="description" content="  Private Heritage Tour of Khajuraho & Orchha" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">

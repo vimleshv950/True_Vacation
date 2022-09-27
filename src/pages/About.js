@@ -2,10 +2,19 @@ import React from "react";
 import "./about.css";
 import vishwanath from "./../assets/img/vishwanath.jpg";
 import img2 from "./../assets/img/img-2.jpg";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About</title>
+
+        <meta
+          name="description"
+          content="About True Vacation"
+        />
+      </Helmet>
       {/* <!-- ABOUT SECTION--> */}
 
       <section className="py-5">

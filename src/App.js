@@ -24,10 +24,18 @@ import KhajurahoBicycleTour from "./details/KhajurahoBicycleTour";
 import MpTour from "./details/MpTour";
 
 import TrueVacationTourTravel from "./details/TrueVacationTourTravel";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <Router>
+      <Helmet>
+        <title>True Vacation</title>
+
+        <meta name="description" content="Best travel and tour in india" />
+        <meta name="keywords" content="Travel, tour, vacation, trip" />
+      </Helmet>
+
       <Nabvar />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -94,12 +102,8 @@ function App() {
           path="/khajurahobicycletour"
           element={<KhajurahoBicycleTour />}
         />
-         <Route
-          exact
-          path="/mptour"
-          element={<MpTour />}
-        />
-          <Route
+        <Route exact path="/mptour" element={<MpTour />} />
+        <Route
           exact
           path="/truevacationtourtravel"
           element={<TrueVacationTourTravel />}

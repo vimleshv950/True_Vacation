@@ -10,11 +10,17 @@ import betwa from "./../assets/img/betwa.jpg";
 import khajuraho20 from "./../assets/img/khajuraho-20.jpg";
 import khajuraho29 from "./../assets/img/khajuraho-29.jpg";
 import img9 from "./../assets/img/img-9.jpg";
+import { Helmet } from "react-helmet";
 
 const GwaliorOrchhaKhajuraho = () => {
   const navigate = useNavigate();
   return (
     <>
+      <Helmet>
+        <title>Mumbai-gwalior-khajuraho tour</title>
+
+        <meta name="description" content="Mumbai-gwalior-khajuraho tour" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">

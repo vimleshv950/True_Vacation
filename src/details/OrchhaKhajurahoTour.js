@@ -7,11 +7,17 @@ import orchha3 from "./../assets/img/orchha-3.jpg";
 import khajuraho12 from "./../assets/img/khajuraho-12.jpg";
 import khajuraho1 from "./../assets/img/khajuraho-1.jpg";
 import khajuraho13 from "./../assets/img/khajuraho-13.jpg";
+import { Helmet } from "react-helmet";
 
 const OrchhaKhajurahoTour = () => {
   const navigate = useNavigate();
   return (
     <>
+      <Helmet>
+        <title>Orchha- Khajuraho Tour</title>
+
+        <meta name="description" content="Orchha- Khajuraho Tour" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">Orchha- Khajuraho Tour</h2>
@@ -49,7 +55,7 @@ const OrchhaKhajurahoTour = () => {
               <div className="sub_img">
                 <img
                   src={khajuraho12}
-                  style={{height: 400, width: 350 }}
+                  style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
               </div>
@@ -89,7 +95,7 @@ const OrchhaKhajurahoTour = () => {
               <div className="sub_img">
                 <img
                   src={khajuraho1}
-                  style={{ height: 400, width: 350}}
+                  style={{ height: 400, width: 350 }}
                   alt="khajuraho"
                 />
               </div>
@@ -102,13 +108,11 @@ const OrchhaKhajurahoTour = () => {
                 pax) Inclusions:
               </h4>
               <ul>
-                <li>
-                AC accommodation in 3 star equivalent hotels.                </li>
+                <li>AC accommodation in 3 star equivalent hotels. </li>
                 <li>All transfers and sight seeing by AC deluxe vehicle.</li>
                 <li>01 day guided tour of temples,.</li>
                 <li>Half day guided tour of Orchha monuments</li>
-                <li>All parking, toll and driver allowances
-</li>
+                <li>All parking, toll and driver allowances</li>
                 <li>GST</li>
                 <br />
                 <h5 className="fw-bold fs-4 mb-2">Exclusions:</h5>
@@ -132,7 +136,6 @@ const OrchhaKhajurahoTour = () => {
               />
             </div>
           </div>
-        
         </div>
         <div className="container">
           <div className="row mx-auto ">
@@ -144,8 +147,6 @@ const OrchhaKhajurahoTour = () => {
               >
                 Go Back
               </button>
-              
-              
             </div>
           </div>
         </div>

@@ -21,12 +21,18 @@ import img58 from "./../assets/img/img-58.jpeg";
 import img18 from "./../assets/img/img-18.jpg";
 import img19 from "./../assets/img/img-19.jpg";
 import img51 from "./../assets/img/img-51.jpg";
+import { Helmet } from "react-helmet";
 
 
 const GoldenTringleWithCentralIndiaGoa = () => {
   const navigate = useNavigate();
   return (
     <>
+  <Helmet>
+        <title>Golden Triangle With Central India Goa</title>
+
+        <meta name="description" content="Golden Triangle With Central India Goa" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">

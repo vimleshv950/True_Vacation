@@ -12,11 +12,17 @@ import taj5 from "./../assets/img/taj-5.jfif";
 import img1 from "./../assets/img/img-1.jpg";
 import img2 from "./../assets/img/img-2.jpg";
 import img55 from "./../assets/img/img-55.jpg";
+import { Helmet } from "react-helmet";
 
 const GoldenTriangleTour = () => {
   const navigate = useNavigate();
   return (
     <>
+  <Helmet>
+        <title> Golden Triangle Tour 7 Days</title>
+
+        <meta name="description" content=" Golden Triangle Tour 7 Days" />
+      </Helmet>
       <section className="detail_section py-5">
         <div className="container py-4">
           <h2 className="text-uppercase lined mb-4">
